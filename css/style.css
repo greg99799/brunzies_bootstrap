@@ -1,0 +1,120 @@
+/*GENERAL STYLING*/
+
+body {
+    background: url('../img/brick-texture.jpg') fixed; 
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+    font-family: 'Arimo', sans-serif;
+}
+
+
+
+
+/*NAV DROP DOWN*/
+
+#nav ul li {
+    /*float: right;  **THIS WILL BE FOR BIGGER SCREENS*/
+
+}
+
+
+/*HEADER*/
+
+header {
+    /*border-bottom: 2px solid #000;*/
+    margin-bottom: 5px;
+    height: 100px;
+    background: #390000;
+}
+h1 {
+    float: left;
+    margin-top: 25px;
+    margin-left: 10px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 3em;
+}
+
+/*nav ul {
+    margin-top: 0;   
+    float: right;
+}*/
+
+/*fix this at some point*/
+h1 {
+/*nav ul,*/
+/*nav ul li,*/
+/*nav ul li a {*/
+    background-color: #390000;
+}
+
+/*INDEX PAGE*/
+
+.slideshow {
+    position: relative;
+    padding: 0;
+}
+
+./*slideshow figure {
+    position: absolute;
+}*/
+
+
+.slideshow img {
+    /*position: absolute;*/
+    margin: 0;
+}
+
+.slideshow img,
+#menu img {
+    width: 100%;
+    max-height: 250px;
+    margin-left: 0;
+}
+
+footer {
+    border-top: 2px solid #000;
+    margin-top: 5px;
+    height: 100px;
+    background: #390000;
+}
+
+/*same issue as above*/
+footer p,
+footer p a {
+    background: #390000;
+    margin-bottom: 0;   
+}
+
+/*LINKS*/
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

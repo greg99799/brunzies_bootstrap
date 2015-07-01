@@ -1,58 +1,41 @@
 /*GENERAL STYLING*/
 
-/*body {
+body {
     background: url('../img/brick-texture.jpg') fixed; 
     color: #fff;
     text-align: center;
     background-color: #000;
-    font-family: 'Arimo', sans-serif;
-}*/
-
-
-
-
-/*NAV DROP DOWN*/
-
-#nav ul li {
-    /*float: right;  **THIS WILL BE FOR BIGGER SCREENS*/
-
+    /*font-family: 'Arimo', sans-serif;*/
 }
 
 
-/*HEADER*/
 
-/*header {
-    /*border-bottom: 2px solid #000;*/
-/*
-    margin-bottom: 5px;
-    height: 100px;
-    background: #390000;
+
+/*NAV DROP DOWN CUSTOMIZATIONS*/
+
+.navbar {
+    min-height: 70px
 }
-*/
-/*h1 {
-    float: left;
-    margin-top: 25px;
-    margin-left: 10px;
-    font-family: 'Arimo', sans-serif;
-    font-weight: 700;
-    letter-spacing: 3px;
-    font-size: 3em;
-}*/
 
-/*nav ul {
-    margin-top: 0;   
-    float: right;
-}*/
+.navbar-header {
+    margin-top: 8px;
+}
 
-/*fix this at some point*/
-/*h1 {*/
-/*nav ul,*/
-/*nav ul li,*/
-/*nav ul li a {*/
-/*    background-color: #390000;
-}*/
+.navbar-brand {
+    font-size: 2.5em;
+}
+
+.navbar a {
+    text-align: right;
+}
+
+
 
 /*INDEX PAGE*/
+
+#wrapper {
+    margin-top: 70px;
+}
 
 .slideshow {
     /*position: relative;

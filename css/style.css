@@ -8,14 +8,14 @@ body {
     /*font-family: 'Arimo', sans-serif;*/
 }
 
-#wrapper {
+#navbar-spacer {
     margin-top: 70px;
 }
 
 
 
 
-/*NAV DROP DOWN CUSTOMIZATIONS*/
+    /*NAV DROP DOWN CUSTOMIZATIONS*/
 
 .navbar {
     min-height: 70px
@@ -48,7 +48,7 @@ body {
     color: #fff;
 }
 
-/*NAVBAR PSEUDO CLASSES*/
+    /*NAVBAR PSEUDO CLASSES*/
 
 .navbar-default .navbar-nav > li > a:visited {
     color: #888;
@@ -58,7 +58,7 @@ body {
 /*INDEX PAGE*/
 
 
-/*CAROUSEL CUSTOMIZATIONS*/
+    /*CAROUSEL CUSTOMIZATIONS*/
 
 img {
     width: 100%;
@@ -77,19 +77,22 @@ img {
 
 .carousel-control.left, .carousel-control.right {
     height: 250px;
-}  
+}
+
+    /*END CAROUSEL*/
+
+#menu {
+    margin-top: -25px;
+}    
 
 footer {
-    /*border-top: 2px solid #000;
-    margin-top: 5px;
-    height: 100px;
-    */background: #390000;
+   /*position: fixed;*/
 }
 
 /*same issue as above*/
 footer p,
 footer p a {
-    background: #390000;
+    background: #000;
     margin-bottom: 0;   
 }
 

@@ -1,1 +1,1 @@
-Idea - 
+Idea - Not sure how this will work for performance, but I'm going to put a carousel on the index/menu/photo gallery pages. Will try to customize each one in time.

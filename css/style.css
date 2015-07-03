@@ -1,7 +1,7 @@
 /*GENERAL STYLING*/
 
 body {
-    background: url('../img/brick-texture.jpg') fixed; 
+    background: url('../img/brunzies-brick.JPG') fixed; 
     color: #fff;
     text-align: center;
     background-color: #000;
@@ -23,12 +23,32 @@ body {
 
 .navbar-brand {
     font-size: 2.5em;
+    /*color: #fff;*/
 }
 
 .navbar a {
     text-align: right;
 }
 
+.navbar-default,
+.navbar-brand {
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+/*NAVBAR PSEUDO CLASSES*/
+
+.navbar-default .navbar-nav > li > a:visited {
+    color: #888;
+}
 
 
 /*INDEX PAGE*/

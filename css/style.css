@@ -85,9 +85,9 @@ img {
     margin-top: -25px;
 }    
 
-footer {
-   /*position: fixed;*/
-}
+/*footer {
+   margin-bottom: 0;
+}*/
 
 /*same issue as above*/
 footer p,

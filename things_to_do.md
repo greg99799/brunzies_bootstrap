@@ -8,6 +8,12 @@ Idea - Not sure how this will work for performance, but I'm going to put a carou
 
 *****THINGS TO DO*****
 
+// GENERAL //
+  replace top navbar code with 'navbar-inverse' class
+    this means undoing the custom stylings to get the effects of inverse
+
+
+
 // INDEX PAGE //
 
   unstick footer to bottom of page
@@ -16,4 +22,15 @@ Idea - Not sure how this will work for performance, but I'm going to put a carou
   add proper images (facebook)
     possibly resize
   tinker with background image
-    possibly farther perspective    
+    possibly farther perspective  
+  replace 'Brunzies' header with either logo image or different font
+
+
+// MENU PAGE //
+
+
+
+
+// CONTACT PAGE //
+
+  add google map interface

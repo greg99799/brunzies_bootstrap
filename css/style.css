@@ -66,30 +66,16 @@ body {
 
 
     /*CAROUSEL CUSTOMIZATIONS*/
-/*
 
-img {
-    width: 100%;
-    max-height: 250px;
-    margin-left: 0;
-}
 
-.carousel {
-    height: 300px;
-    margin-bottom: 0;
-}
 
 .carousel .item {
     background-color: transparent;
 }
 
-.carousel-control.left, .carousel-control.right {
-    height: 250px;
-}
 
-*/
 
-    /*END CAROUSEL*/
+    /*END CAROUSEL CUSTOMIZATIONS*/
 
 #menu {
     margin-top: -25px;
@@ -114,6 +100,15 @@ footer p a {
 
 #map-separator {
     margin-top: 85px;
+}
+
+#address {
+    font-size: 1.250em;
+    margin: 10px 0 70px 0;
+    background-color: rgba(0,0,0,.55);
+    
+    padding: 10px;
+
 }
 
 /*LINKS*/

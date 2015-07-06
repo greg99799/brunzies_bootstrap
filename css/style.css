@@ -1,4 +1,7 @@
 /*GENERAL STYLING*/
+html {
+    /*height: 100%;*/
+}
 
 body {
     background: url('../img/brunzies-brick.JPG') fixed; 
@@ -6,6 +9,7 @@ body {
     text-align: center;
     background-color: #000;
     /*font-family: 'Arimo', sans-serif;*/
+    /*height: 100%;*/
 }
 
 

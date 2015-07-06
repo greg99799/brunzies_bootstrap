@@ -24,6 +24,8 @@ Idea - Not sure how this will work for performance, but I'm going to put a carou
   tinker with background image
     possibly farther perspective  
   replace 'Brunzies' header with either logo image or different font
+  optimize images to fit on carousel template on different devices
+
 
 
 // MENU PAGE //

@@ -106,6 +106,12 @@ footer p a {
     margin-bottom: 0;   
 }
 
+/*CONTACT PAGE*/
+
+#map-container {
+    height: 500px;
+}
+
 /*LINKS*/
 
 a {

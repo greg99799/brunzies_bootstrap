@@ -19,6 +19,12 @@ body {
     border-top: 1px solid #fff;
 }
 
+/*LINKS*/
+
+a {
+    /*text-decoration: none; Bootstrap does this automatically */ 
+    color: #fff;
+}
 
 
 
@@ -111,14 +117,12 @@ footer p a {
 
 }
 
-/*LINKS*/
 
-a {
-    /*text-decoration: none; Bootstrap does this automatically */ 
-    color: #fff;
+/*FOOTER CUSTOMIZATIONS*/
+
+.social-icons {
+    margin: 0 15px;
 }
-
-
 
 
 

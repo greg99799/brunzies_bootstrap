@@ -30,6 +30,11 @@ a {
 
     /*NAV DROP DOWN CUSTOMIZATIONS*/
 
+#nav-logo {
+    float: left;
+    width: 42%;
+}
+
 .navbar {
     min-height: 70px
 }
@@ -102,7 +107,7 @@ footer p a {
 
 #map-container {
     height: 500px;
-    width: 90%;
+    width: 96%;
 }
 
 #map-separator {

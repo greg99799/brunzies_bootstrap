@@ -35,4 +35,5 @@ Idea - Not sure how this will work for performance, but I'm going to put a carou
 
 // CONTACT PAGE //
 
-  add google map interface
+  add google map interface - DONE
+    take inline styles out of iframe tag 

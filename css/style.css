@@ -120,6 +120,13 @@ footer p a {
     font-size: .850em;
 }
 
+/*MENU PAGE*/
+
+.menu {
+    border-radius: 5px;
+    margin-bottom: 75px;
+}
+
 
 /*FOOTER CUSTOMIZATIONS*/
 

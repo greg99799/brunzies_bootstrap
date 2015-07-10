@@ -118,7 +118,6 @@ footer p a {
 #wrapper {
     max-width: 940px;
     margin: 0 auto;
-    padding: 0 5%;
 }
 
 #imageGallery {
@@ -129,8 +128,10 @@ footer p a {
 
 #imageGallery li img {
     float: left;
-    width: 45%;
-    margin: 2.5%;
+      width: 45%;
+      margin: 2.5%;
+      border-radius: 20px;
+      border: 1px solid #9BA9A9;
 }
 
 

@@ -131,9 +131,8 @@ footer p a {
     float: left;
     width: 45%;
     margin: 2.5%;
-    background-color: #f5f5f5;
-    color: #939699;
 }
+
 
 #overlay {
     background: rgba(0,0,0,.7);

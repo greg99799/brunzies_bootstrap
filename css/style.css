@@ -32,7 +32,8 @@ a {
 
 #nav-logo {
     float: left;
-    width: 42%;
+    max-width: 42%;
+    max-height: 52px;
 }
 
 .navbar {
@@ -52,9 +53,7 @@ a {
     text-align: right;
 }
 
-.navbar-default,
-.navbar-brand {
-    background-color: #000;
+.navbar-inverse .navbar-brand {
     color: #fff;
 }
 

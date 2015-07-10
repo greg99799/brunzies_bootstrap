@@ -143,11 +143,11 @@ footer p a {
     top: 0;
     left: 0;
     display: none;
-    text-align: center;
 }
 
 #overlay img {
-    margin-top: 10%;
+    margin-top: 30%;
+    max-width: 100%;
 }
 
 #overlay p {

@@ -83,6 +83,9 @@ a {
 
     /*CAROUSEL CUSTOMIZATIONS*/
 
+#index-only {
+    margin-bottom: -100px;
+}
 .carousel .item {
     background-color: transparent;
 }
@@ -167,22 +170,25 @@ footer p a {
 
 /*CONTACT PAGE*/
 
-#map-container {
-    height: 500px;
-    width: 96%;
-}
-
-#map-separator {
-    margin-bottom: 85px;
-}
-
 #address {
     font-size: 1.350em;
-    margin: 85px 0 30px 0;
+    /*I hate how I'm mixing px with % here*/
+    margin: 85px 3% 30px 3%;
     background-color: rgba(0,0,0,.55);
     padding: 10px;
     /*margin-top: 75px;*/
+    width: 94%
 }
+
+#map-container {
+    height: 500px;
+    width: 94%;
+}
+
+#map-separator {
+    margin-bottom: 25px;
+}
+
 
 #no-reservations {
     font-size: .850em;

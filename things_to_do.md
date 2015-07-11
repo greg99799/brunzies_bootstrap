@@ -3,7 +3,11 @@ GENERAL IDEAS
 <!-- Idea - Not sure how this will work for performance, but I'm going to put a carousel on the index/menu/photo gallery pages. Will try to customize each one in time.
   taken care of by bootstrap
  -->
-
+ REMEMBER THIS-----------------
+**************
+ python -m SimpleHTTPServer
+**************
+creates simple server on mac...will be good for ajax testing - I think
 
 
 

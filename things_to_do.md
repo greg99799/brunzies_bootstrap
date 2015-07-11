@@ -9,7 +9,7 @@ GENERAL IDEAS
 **************
 creates simple server on mac...will be good for ajax testing - I think
 
-test git
+
 
 *****THINGS TO DO*****
 

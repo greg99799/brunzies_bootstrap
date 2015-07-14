@@ -4,5 +4,12 @@
         margin-top: 8px;
     }
 
+    .carousel,
+    .carousel .item {
+        height: 900px;
+    }
+
+
+
 
 }

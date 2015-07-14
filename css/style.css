@@ -71,7 +71,11 @@ a {
     color: #fff;
 }
 
+
     /*NAVBAR PSEUDO CLASSES - WILL GO TO RESPONSIVE.CSS*/
+.nav-selected {
+    color: #fff;
+}
 
 .navbar-default .navbar-nav > li > a:visited {
     color: #888;
@@ -133,13 +137,11 @@ footer p a {
 
 /*PHOTO GALLERY*/
 
-/*.row {
-    margin-left: 1%;
-    margin-right: 1%;
+.last-photo {
+    display: none;
 }
-*/
 
-#gallery-body {
+/*#gallery-body {
     height: 970px;
 }
 
@@ -164,7 +166,9 @@ footer p a {
     margin: 6px;
     border-radius: 5px;
     border: 1px solid #9BA9A9;
-}
+}*/
+
+
 
 
 #overlay {

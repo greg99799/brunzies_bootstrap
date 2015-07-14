@@ -48,3 +48,26 @@ creates simple server on mac...will be good for ajax testing - I think
 
   Will need to make images on photo gallery page 100% on screens under 375px
     375 px is iPhone 6 portrait width
+
+  very preliminary set of rules for index carousel
+  .carousel-inner {
+      position: relative;
+      width: 80%; **
+      overflow: hidden;
+      margin-left: auto; **
+      margin-right: auto; **
+      height: 155%; **
+    }
+
+    @media screen and (min-width: 768px)
+      .carousel-indicators {
+      bottom: -250px;
+    }
+
+    @media screen and (min-width: 768px)
+    .carousel-caption {
+      right: 20%;
+      left: 20%;
+      margin: -280px; *
+      padding-bottom: 30px;
+    }  

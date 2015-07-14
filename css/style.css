@@ -83,7 +83,9 @@ a {
 }
 
 
-/*INDEX PAGE*/
+/******************************
+INDEX PAGE
+******************************/
 
 
     /*CAROUSEL CUSTOMIZATIONS*/
@@ -113,9 +115,11 @@ footer p a {
 }
 
 #front-page-desc {
-    font-size: 1.25em;
+    font-size: 1.35em;
     margin-bottom: 70px;
     padding: 20px;
+    font-family: 'Kaushan Script', cursive;
+    letter-spacing: 1px;
 }
 
 

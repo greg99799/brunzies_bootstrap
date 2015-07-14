@@ -1,5 +1,30 @@
+@media screen and (max-width: 340px) {
+
+    /*FOR iPhone5 AND BEFORE*/
+
+    /********************************
+    INDEX PAGE
+    ********************************/    
+
+    .carousel-indicators {
+        bottom: 62px
+    }
+
+    .carousel-caption {
+        padding-bottom: 65px;
+    }
+
+
+}
+
+
 @media screen and (min-width: 480px) {
     
+
+/********************************
+INDEX PAGE
+********************************/
+
     .navbar-right {
         margin-top: 8px;
     }
@@ -19,6 +44,12 @@
 
 
 @media screen and (min-width: 768px) {
+
+
+/********************************
+INDEX PAGE
+********************************/
+
     
     .navbar-right {
         margin-top: 8px;

@@ -1,4 +1,5 @@
 /*GENERAL STYLING*/
+
 html {
     height: 100%;
 }
@@ -140,36 +141,6 @@ footer p a {
 .last-photo {
     display: none;
 }
-
-/*#gallery-body {
-    height: 970px;
-}
-
-.gallery-top-margin {
-    margin-top: 0;
-}
-
-#wrapper {
-    max-width: 940px;
-    margin: 0 auto;
-}
-
-#imageGallery {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-#imageGallery li img {
-    float: left;
-    width: 30%;
-    margin: 6px;
-    border-radius: 5px;
-    border: 1px solid #9BA9A9;
-}*/
-
-
-
 
 #overlay {
     background: rgba(0,0,0,.7);

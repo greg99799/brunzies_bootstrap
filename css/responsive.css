@@ -43,7 +43,7 @@ INDEX PAGE
 
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 668px) {
 
 
 /********************************
@@ -57,7 +57,7 @@ INDEX PAGE
 
     .carousel,
     .carousel .item {
-        height: 900px;
+        height: 885px;
     }
 
     .carousel {

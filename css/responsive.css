@@ -67,25 +67,29 @@ INDEX PAGE
     /*.first-slide {
         display: none;
     }*/
+    .carousel .item .first-slide {
+        content: url(../img/index/taps-ipad-landscape.jpg);
+    }
 
-    .carousel .item .first-slide-portrait {
+    .carousel .item .first-slide-landscape {
         display: none;
     }
 
+    /*.carousel .item .first-slide-portrait {
+        /*display: block;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;*/
+        /*content: url(../img/index/taps-portrait.jpg);*/
+        /* width: 500px; /* Width of new image 
+        height: 236px; /* Height of new image 
+        padding-left: 110; /* Equal to width of new image 
+        height: 1000px;
+        width: 800px;
+    }*/
 }
 
 @media screen and (min-width: 480px) and (orientation: landscape) {
 
-    /*.first-slide, .second-slide {
-        display: block;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-        background: url("img/index/taps-landscape.jpg") no-repeat;
-        width: 500px; /* Width of new image 
-        height: 236px; /* Height of new image 
-        padding-left: 110; /* Equal to width of new image 
-        z-index: 6;
-    }*/
 
 }
 

@@ -98,7 +98,7 @@ INDEX PAGE
     }
 
     .carousel .item .first-slide {
-        content: url(../img/index/taps-ipad-landscape.jpg);
+        content: url(../img/index/taps-tablet-landscape1.jpg);
     }
 
 
@@ -126,7 +126,7 @@ INDEX PAGE
 
     .carousel,
     .carousel .item {
-        height: 885px;
+        height: 660px;
     }
 
     .carousel {
@@ -134,20 +134,20 @@ INDEX PAGE
     }
     
     .carousel .item .first-slide {
-        content: url(../img/index/taps-ipad-landscape.jpg);
+        content: url(../img/index/taps-tablet-landscape1.jpg);
     }
 
     .carousel-caption {
-        bottom: 275px;
+        bottom: 50px;
     }
 
     .carousel-indicators {
-        bottom: 275px;
+        bottom: 50px;
     }
 
     .carousel-control .glyphicon-chevron-right,
     .carousel-control .glyphicon-chevron-left  {
-        top: 35%;
+        top: 50%;
     }
 
     .carousel-control .glyphicon-chevron-right {

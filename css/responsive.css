@@ -126,23 +126,32 @@ INDEX PAGE
 
     .carousel,
     .carousel .item {
-        height: 660px;
+        height: 680px;
     }
 
     .carousel {
-        margin-bottom: 125px;
+        margin-bottom: 45px;
     }
     
     .carousel .item .first-slide {
         content: url(../img/index/taps-tablet-landscape1.jpg);
     }
+    .carousel .item .second-slide {
+        content: url(../img/index/sliders-tablet-landscape.jpg);
+    }
+    .carousel .item .third-slide {
+        content: url(../img/index/taps-tablet-landscape2.jpg);
+    }
+    .carousel .item .fourth-slide {
+        content: url(../img/index/phonebooths-tablet-landscape.jpg);
+    }
 
     .carousel-caption {
-        bottom: 50px;
+        bottom: 80px;
     }
 
     .carousel-indicators {
-        bottom: 50px;
+        bottom: 80px;
     }
 
     .carousel-control .glyphicon-chevron-right,

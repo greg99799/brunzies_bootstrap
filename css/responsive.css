@@ -22,7 +22,7 @@
     
 
 /********************************
-INDEX PAGE
+INDEX PAGE PHONE PORTRAIT
 ********************************/
 
     .navbar-right {
@@ -40,17 +40,14 @@ INDEX PAGE
 
 }
 
-
-
-
-@media screen and (min-width: 668px) and (orientation: landscape) {
-
-
 /********************************
-INDEX PAGE
+INDEX PAGE TABLET PORTRAIT
 ********************************/
 
-    
+
+@media screen and (min-width: 668px) {
+
+
     .navbar-right {
         margin-top: 8px;
     }
@@ -64,34 +61,105 @@ INDEX PAGE
         margin-bottom: 125px;
     }
 
-    /*.first-slide {
-        display: none;
-    }*/
+}
+
+
+@media screen and (min-width: 480px) and (orientation: landscape) {
+
+/********************************
+PHONE LANDSCAPE
+********************************/
+
+/*NAVBAR*/
+
+.navbar {
+    height: 40px
+}
+
+.all-but-topnav {
+    margin-top: 50px;
+}
+
+/********************************
+INDEX PAGE 
+********************************/
+    
+    .navbar-right {
+        margin-top: 8px;
+    }
+
+    .carousel,
+    .carousel .item {
+        height: 485px;
+    }
+
+    .carousel {
+        margin-bottom: 125px;
+    }
+
     .carousel .item .first-slide {
         content: url(../img/index/taps-ipad-landscape.jpg);
     }
 
-    .carousel .item .first-slide-landscape {
-        display: none;
+
+}
+@media screen and (min-width: 668px) and (orientation: landscape) {
+
+/********************************
+TABLET LANDSCAPE
+********************************/
+
+/*NAVBAR*/
+
+.navbar {
+    height: 70px;
+}
+
+
+/********************************
+INDEX PAGE 
+********************************/
+    
+    .navbar-right {
+        margin-top: 8px;
     }
 
-    /*.carousel .item .first-slide-portrait {
-        /*display: block;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;*/
-        /*content: url(../img/index/taps-portrait.jpg);*/
-        /* width: 500px; /* Width of new image 
-        height: 236px; /* Height of new image 
-        padding-left: 110; /* Equal to width of new image 
-        height: 1000px;
-        width: 800px;
-    }*/
+    .carousel,
+    .carousel .item {
+        height: 885px;
+    }
+
+    .carousel {
+        margin-bottom: 125px;
+    }
+    
+    .carousel .item .first-slide {
+        content: url(../img/index/taps-ipad-landscape.jpg);
+    }
+
+    .carousel-caption {
+        bottom: 275px;
+    }
+
+    .carousel-indicators {
+        bottom: 275px;
+    }
+
+    .carousel-control .glyphicon-chevron-right,
+    .carousel-control .glyphicon-chevron-left  {
+        top: 35%;
+    }
+
+    .carousel-control .glyphicon-chevron-right {
+        margin-right: -40px;
+    }
+
+    .carousel-control .glyphicon-chevron-left {
+        margin-left: -40px;
+    }
+
 }
 
-@media screen and (min-width: 480px) and (orientation: landscape) {
-
-
-}
 
 
 

@@ -29,19 +29,15 @@ INDEX PAGE PHONE PORTRAIT (iPhone 6 is 375px)
         margin-top: 8px;
     }
 
-    /*.carousel,
-    .carousel .item {
-        height: 665px;
-    }*/
 
     .carousel {
         position: fixed;
-  top: 70px;
-  left: 0;
-  right: 0;
-    bottom: 0;
-  height: initial;
-  margin-bottom: 0;
+        top: 70px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: initial;
+        margin-bottom: 0;
     }
 
     .carousel-caption {
@@ -64,6 +60,10 @@ INDEX PAGE TABLET PORTRAIT
 
     .navbar-right {
         margin-top: 8px;
+    }
+    
+    .carousel .item img {
+        left: 0;
     }
 
     .carousel,

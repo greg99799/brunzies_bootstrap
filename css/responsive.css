@@ -45,7 +45,7 @@ INDEX PAGE TABLET PORTRAIT
 ********************************/
 
 
-@media screen and (min-width: 668px) {
+@media screen and (min-width: 668px) and (orientation: portrait) {
 
 
     .navbar-right {
@@ -54,11 +54,16 @@ INDEX PAGE TABLET PORTRAIT
 
     .carousel,
     .carousel .item {
-        height: 885px;
+        height: 960px;
     }
 
     .carousel {
-        margin-bottom: 125px;
+        margin-bottom: 70px;
+    }
+
+    .carousel-caption,
+    .carousel-indicators {
+        bottom: 100px;
     }
 
 }
@@ -126,11 +131,15 @@ INDEX PAGE
 
     .carousel,
     .carousel .item {
-        height: 680px;
+        height: 720px;
     }
 
     .carousel {
-        margin-bottom: 45px;
+        margin-top: 19px;
+    }
+
+    .carousel {
+        margin-bottom: 0;
     }
     
     .carousel .item .first-slide {
@@ -146,13 +155,12 @@ INDEX PAGE
         content: url(../img/index/phonebooths-tablet-landscape.jpg);
     }
 
-    .carousel-caption {
-        bottom: 80px;
+    .carousel-caption,
+    .carousel-indicators {
+        bottom: 100px;
     }
 
-    .carousel-indicators {
-        bottom: 80px;
-    }
+    
 
     .carousel-control .glyphicon-chevron-right,
     .carousel-control .glyphicon-chevron-left  {

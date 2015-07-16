@@ -18,11 +18,11 @@
 }
 
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 355px) and (orientation: portrait) {
     
 
 /********************************
-INDEX PAGE PHONE PORTRAIT
+INDEX PAGE PHONE PORTRAIT (iPhone 6 is 375px)
 ********************************/
 
     .navbar-right {
@@ -36,6 +36,15 @@ INDEX PAGE PHONE PORTRAIT
 
     .carousel {
         margin-bottom: 0;
+    }
+
+    .carousel-caption,
+    .carousel-indicators {
+        bottom: 200px;
+    }
+
+    .carousel-indicators {
+        bottom: 190px;
     }
 
 }

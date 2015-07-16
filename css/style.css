@@ -108,6 +108,7 @@ INDEX PAGE
 .carousel .item img {
     max-width: none;
     height: 100%;
+    left: -8%;
 }
 
 .carousel .item img.first-slide {

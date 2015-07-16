@@ -44,13 +44,12 @@ INDEX PAGE PHONE PORTRAIT (iPhone 6 is 375px)
   margin-bottom: 0;
     }
 
-    .carousel-caption,
-    .carousel-indicators {
-        bottom: 0;
+    .carousel-caption {
+        bottom: 65px;
     }
 
     .carousel-indicators {
-        bottom: 86px;
+        bottom: 60px;
     }
 
 }

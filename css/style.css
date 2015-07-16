@@ -16,16 +16,12 @@ body {
 
 
 .all-but-topnav {
-    margin-top: 70px;
-    height: 90%;
-    border-top: 1px solid #fff;
-    margin-bottom: 10px;
+    /*margin-top: 70px;*/
+    /*height: 90%;*/
+    /*border-top: 1px solid #fff;*/
+    /*margin-bottom: 10px;*/
 }
 
-#all-but-topnav:after {
-    content: "";
-    display: block;
-}
 
 /*LINKS*/
 
@@ -45,7 +41,7 @@ a {
 }
 
 .navbar {
-    height: 70px;
+    min-height: 70px;
     border-bottom: 1px solid #fff;
 }
 
@@ -106,20 +102,30 @@ INDEX PAGE
 }
 .carousel .item {
     background-color: transparent;
+    height: 100%;
 }
 
-.carousel .item .first-slide {
+.carousel .item img {
+    max-width: none;
+    height: 100%;
+}
+
+.carousel .item img.first-slide {
     content: url(../img/index/taps-portrait.jpg);
+    
 }
 
-.carousel .item .second-slide {
+.carousel .item img.second-slide {
     content: url(../img/index/sliders-phone-portrait.jpg);
+    
 }
-.carousel .item .third-slide {
+.carousel .item img.third-slide {
     content: url(../img/index/taps4-phone-portrait.jpg);
+    
 }
-.carousel .item .fourth-slide {
+.carousel .item img.fourth-slide {
     content: url(../img/index/phonebooths2-phone-portrait.jpg);
+    
 } 
 
 

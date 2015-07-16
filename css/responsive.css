@@ -102,6 +102,15 @@ PHONE LANDSCAPE
 /********************************
 INDEX PAGE 
 ********************************/
+    .carousel {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: initial;
+        margin-bottom: 0;
+    }
     
     .navbar-right {
         margin-top: 8px;
@@ -116,8 +125,17 @@ INDEX PAGE
         margin-bottom: 125px;
     }
 
-    .carousel .item .first-slide {
+    .carousel .item img.first-slide {
         content: url(../img/index/taps-tablet-landscape1.jpg);
+    }
+    .carousel .item img.second-slide {
+        content: url(../img/index/sliders-tablet-landscape.jpg);
+    }
+    .carousel .item img.third-slide {
+        content: url(../img/index/taps-tablet-landscape2.jpg);
+    }
+    .carousel .item img.fourth-slide {
+        content: url(../img/index/phonebooths-tablet-landscape.jpg);
     }
 
 
@@ -148,24 +166,24 @@ INDEX PAGE
         height: 100%;
     }
 
-    .carousel {
-        margin-top: 19px;
+    .carousel .item img {
+        left: 0;
     }
 
     .carousel {
         margin-bottom: 0;
     }
     
-    .carousel .item .first-slide {
+    .carousel .item img.first-slide {
         content: url(../img/index/taps-tablet-landscape1.jpg);
     }
-    .carousel .item .second-slide {
+    .carousel .item img.second-slide {
         content: url(../img/index/sliders-tablet-landscape.jpg);
     }
-    .carousel .item .third-slide {
+    .carousel .item img.third-slide {
         content: url(../img/index/taps-tablet-landscape2.jpg);
     }
-    .carousel .item .fourth-slide {
+    .carousel .item img.fourth-slide {
         content: url(../img/index/phonebooths-tablet-landscape.jpg);
     }
 

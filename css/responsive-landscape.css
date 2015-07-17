@@ -5,10 +5,12 @@ PHONE LANDSCAPE
 @media screen and (min-width: 480px) and (orientation: landscape) {
 
 
-/*NAVBAR*/
+/********************************
+NAVBAR
+********************************/
 
 .navbar {
-    height: 40px
+    min-height: 40px
 }
 
 .all-but-topnav {
@@ -16,11 +18,19 @@ PHONE LANDSCAPE
 }
 
 /********************************
+FOOTER
+********************************/
+
+.footer {
+    height: 60px;
+}
+
+/********************************
 INDEX PAGE 
 ********************************/
     .carousel {
         position: fixed;
-        top: 70px;
+        top: -40px;
         left: 0;
         right: 0;
         bottom: 0;
@@ -37,9 +47,9 @@ INDEX PAGE
         height: 485px;
     }
 
-    .carousel {
+    /*.carousel {
         margin-bottom: 125px;
-    }
+    }*/
 
     .carousel .item img.first-slide {
         content: url(../img/index/taps-tablet-landscape1.jpg);
@@ -51,8 +61,10 @@ INDEX PAGE
         content: url(../img/index/taps-tablet-landscape2.jpg);
     }
     .carousel .item img.fourth-slide {
-        content: url(../img/index/phonebooths-tablet-landscape.jpg);
+        content: url(../img/index/toasting-phone-landscape.jpg);
     }
+
+
 
 
 }

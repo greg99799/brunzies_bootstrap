@@ -88,6 +88,16 @@ INDEX PAGE
 
     /*CAROUSEL CUSTOMIZATIONS*/
 
+.index-h1 {
+    font-size: 5.5em;
+    font-family: 'Quicksand', Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+#index-title {
+
+}
+
 .carousel,
 .item,
 .active {
@@ -125,7 +135,7 @@ INDEX PAGE
     
 }
 .carousel .item img.fourth-slide {
-    content: url(../img/index/phonebooths2-phone-portrait.jpg);
+    content: url(../img/index/people-toasting1.jpg);
     
 } 
 

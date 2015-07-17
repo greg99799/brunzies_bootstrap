@@ -14,7 +14,7 @@ NAVBAR
     }
 
     .all-but-topnav {
-        margin-top: 50px;
+        margin-top: 4%;
     }
 
     .navbar-right {
@@ -81,7 +81,18 @@ INDEX PAGE
         content: url(../img/index/toasting-phone-landscape.jpg);
     }
 
+/********************************
+MENU PAGE 
+********************************/
+    
+    .col-xs-12 {
+        width: 50%;
+        margin-bottom: 10%;
+    }
 
+    .drink-specials {
+        font-size: 1.5em;
+    }
 
 
 }
@@ -97,9 +108,13 @@ TABLET LANDSCAPE
 
 /*NAVBAR*/
 
-.navbar {
-    height: 70px;
-}
+    .navbar {
+        height: 70px;
+    }
+
+    /*.all-but-topnav {
+        margin-top: 40px;
+    }*/
 
 
 /********************************

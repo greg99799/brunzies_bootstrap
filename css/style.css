@@ -45,9 +45,11 @@ a {
     border-bottom: 1px solid #fff;
 }
 
-.navbar-header {
+/*ADD TO RESPONSIVE STYLESHEETS*/
+
+/*.navbar-header {
     margin-top: 8px;
-}
+}*/
 
 .navbar-brand {
     font-size: 2.5em;

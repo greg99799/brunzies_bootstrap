@@ -21,6 +21,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-TileImage" content="mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <link href='http://fonts.googleapis.com/css?family=Quicksand:400,700|Dancing+Script|Kaushan+Script|Courgette|Satisfy' rel='stylesheet' type='text/css'>
 
     <title>
       Brunzies - Established in 2013, Brunzies is a casual neighborhood bar and grill specializing in craft beer, burgers and pizzas.  It is a perfect place to meet friends, grab a bite to eat, watch a game on one of our 8 big screen TV's or to just relax and have a drink. 
@@ -32,6 +33,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/responsive-portrait.css" rel="stylesheet">
+    <link href="css/responsive-landscape.css" rel="stylesheet">
   </head>
 
   <body>
@@ -74,37 +77,42 @@
         <h1 class="menu-headers page-header">Our Menu</h1>
       </div>
       <div class="container">
-        <a href="img/menus/brunzies-menu-6.3.15.jpg">
-          <img class="img-responsive menu" src="img/menus/brunzies-menu-6.3.15.jpg">
-        </a>
-      </div>
+        <div class="row">
+          <div class="col-xs-7">
+            <a href="img/menus/brunzies-menu-6.3.15.jpg">
+              <img class="img-responsive menu" src="img/menus/brunzies-menu-6.3.15.jpg">
+            </a>
+          </div>
+        
+        
       
+        <div class="col-xs-5">
+          <h1 class="menu-headers"> Daily Drink Specials</h1>
+          <a name="drink-specials">
+            <div class="drink-specials">
+          </a>
+            <ul class="list-group">  
+              <h4 class="list-group-item-heading">Monday-Saturday  @9-11 pm</h4>
+              <p class="list-group-text">$1.50 Domestic Drafts</p>
+              <p class="list-group-text">$1.50 Well Drinks</p>
+              <p class="list-group-text">Half off all other craft beer on tap!</p>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </div>
     </div>
-    <div class="container">
-      <h1 class="menu-headers"> Daily Drink Specials</h1>
-    </div>
-    <a name="drink-specials">
-      <div class="drink-specials">
-    </a>
-      <ul class="list-group">  
-        <h4 class="list-group-item-heading">Monday-Saturday  @9-11 pm</h4>
-        <p class="list-group-text">$1.50 Domestic Drafts</p>
-        <p class="list-group-text">$1.50 Well Drinks</p>
-        <p class="list-group-text">Half off all other craft beer on tap!</p>
-      </ul>
-    </div>
+    
 
     <!-- FOOTER -->
-    <div class="navbar navbar-inverse">
+    <div class="navbar navbar-fixed-bottom navbar-inverse">
       <footer class="footer">
-        <div class="container">
+        <div class="container footer-text">
+          
           <p>
-            Questions?  <a href="tel:724-349-2770"><span class="glyphicon glyphicon-phone"></span></a>  us!
-          </p>
-          <p>
-            <a href="https://www.facebook.com/brunzies.bar?fref=ts"><span class="fa fa-facebook-official fa-lg social-icons"></span></a><a href="https://twitter.com/KrisJBruns"><span class="fa fa-twitter-square fa-lg social-icons"></span></a>
-          </p>
-          <p>&copy; 2015 Gregory Knudsen</p>
+            <a href="https://www.facebook.com/brunzies.bar?fref=ts"><span class="fa fa-facebook-official fa-2x social-icons"></span></a><a href="https://twitter.com/KrisJBruns"><span class="fa fa-twitter-square fa-2x social-icons"></span></a>
+          </p><br>
+          <p id="copyright">&copy; 2015 Gregory Knudsen</p>
 
         </div>
       </footer>

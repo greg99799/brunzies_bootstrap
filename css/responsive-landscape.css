@@ -9,13 +9,17 @@ PHONE LANDSCAPE
 NAVBAR
 ********************************/
 
-.navbar {
-    min-height: 40px
-}
+    .navbar {
+        min-height: 40px
+    }
 
-.all-but-topnav {
-    margin-top: 50px;
-}
+    .all-but-topnav {
+        margin-top: 50px;
+    }
+
+    .navbar-right {
+        margin-top: 8px;
+    }
 
 /********************************
 FOOTER
@@ -23,6 +27,14 @@ FOOTER
 
 .footer {
     height: 60px;
+}
+
+.footer p {
+  margin-bottom: -15px;
+}
+
+#copyright {
+    font-family: 'Courgette', Helvetica, sans-serif;
 }
 
 /********************************
@@ -38,8 +50,13 @@ INDEX PAGE
         margin-bottom: 0;
     }
 
-    .navbar-right {
-        margin-top: 8px;
+    .carousel-indicators,
+    .carousel-caption {
+        bottom: 25%;
+    }
+
+    .index-h1 {
+        font-size: 3.5em;
     }
 
     .carousel,
@@ -52,13 +69,13 @@ INDEX PAGE
     }*/
 
     .carousel .item img.first-slide {
-        content: url(../img/index/taps-tablet-landscape1.jpg);
+        content: url(../img/index/taps-landscape.jpg);
     }
     .carousel .item img.second-slide {
         content: url(../img/index/sliders-tablet-landscape.jpg);
     }
     .carousel .item img.third-slide {
-        content: url(../img/index/taps-tablet-landscape2.jpg);
+        content: url(../img/index/taps-landscape.jpg);
     }
     .carousel .item img.fourth-slide {
         content: url(../img/index/toasting-phone-landscape.jpg);

@@ -16,10 +16,10 @@ body {
 
 
 .all-but-topnav {
-    /*margin-top: 70px;*/
-    /*height: 90%;*/
+    margin-top: 70px;
+    height: 100%;
     /*border-top: 1px solid #fff;*/
-    /*margin-bottom: 10px;*/
+    margin-bottom: 10px;
 }
 
 

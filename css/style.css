@@ -153,7 +153,7 @@ INDEX PAGE
 /*same issue as above*/
 footer p,
 footer p a {
-    background: #222;
+    /*background: #222;*/
     margin-bottom: 0;   
 }
 
@@ -252,6 +252,14 @@ footer p a {
 
 .footer-text {
     margin-top: 4px;
+}
+
+.footer p {
+    margin-bottom: -10px;
+}
+
+.navbar-fixed-bottom {
+    background-color: rgba(34,34,34,.65);
 }
 
 

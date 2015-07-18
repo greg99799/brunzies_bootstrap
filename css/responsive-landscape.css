@@ -181,13 +181,16 @@ TABLET LANDSCAPE
         margin-top: 40px;
     }*/
 
+    .navbar-right {
+        margin-top: 8px;
+    }
 
 /********************************
 INDEX PAGE 
 ********************************/
     
-    .navbar-right {
-        margin-top: 8px;
+    .index-h1 {
+        font-size: 5.5em;
     }
 
     .carousel,
@@ -201,6 +204,7 @@ INDEX PAGE
 
     .carousel {
         margin-bottom: 0;
+        top: 0;
     }
     
     .carousel .item img.first-slide {
@@ -213,12 +217,12 @@ INDEX PAGE
         content: url(../img/index/taps-tablet-landscape2.jpg);
     }
     .carousel .item img.fourth-slide {
-        content: url(../img/index/phonebooths-tablet-landscape.jpg);
+        content: url(../img/index/toasting-tablet-landscape.jpg);
     }
 
-    .carousel-caption,
+    
     .carousel-indicators {
-        bottom: 130px;
+        bottom: 8%;
     }
 
     

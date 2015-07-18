@@ -177,6 +177,16 @@ TABLET LANDSCAPE
         min-height: 70px;
     }
 
+     .navbar-inverse .navbar-brand {
+        padding-top: 16%;
+        padding-left: 10%;
+        margin-left: 0;
+    }
+
+    .navbar>.container-fluid .navbar-brand {
+         margin-left: 0; 
+    }
+
     /*.all-but-topnav {
         margin-top: 40px;
     }*/
@@ -238,6 +248,15 @@ INDEX PAGE
 
     .carousel-control .glyphicon-chevron-left {
         margin-left: -40px;
+    }
+
+
+/********************************
+MENU PAGE 
+********************************/
+
+    .drink-specials {
+        font-size: 2.15em;
     }
 
 }

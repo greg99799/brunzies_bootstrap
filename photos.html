@@ -33,9 +33,11 @@
     <link href="css/thumbnail-gallery.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/responsive-portrait.css" rel="stylesheet">
+    <link href="css/responsive-landscape.css" rel="stylesheet">
   </head>
 
-  <body id="gallery-body">
+  <body>
     <div class="background-img">
     <!-- Navbar
             ============================================= -->
@@ -51,14 +53,13 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand">Brunzies</a>
-            </div> 
-            <!-- end .navbar-header -->
+            </div> <!-- end .navbar-header -->
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="menu.html">Menu</a></li>
                     
-                    <li><a href="photos.html" class="nav-selected">Photo Gallery</a></li>
+                    <li><a href="photos.html">Photo Gallery</a></li>
                     <li><a href="contact.html">Contact</a></li>
                   </ul>
                 </li>
@@ -67,13 +68,13 @@
           </div> 
         </nav>
       </div>  
-    </div>            
+    </div>
     
-    <!-- <div class="all-but-topnav gallery-top-margin"> -->
+    <div class="gallery-top-margin">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <h1 class="page-header">Photo Gallery</h1>
+            <h1 class="page-header gallery-header">Photo Gallery</h1>
           </div>
 
           <div class="col-lg-3 col-xs-6 gallery-pic">
@@ -125,20 +126,19 @@
           </div>
         </div>
       </div>
-      <div class="container">
-        <h2>See more photos on Facebook!</h2>
+      <div id="see-more-photos">
+        <h3>See more photos on Facebook!</h3>
       </div>
+    </div>
     <!-- FOOTER -->
     <div class="navbar navbar-fixed-bottom navbar-inverse">
       <footer class="footer">
-        <div class="container">
+        <div class="container footer-text">
+          
           <p>
-            Questions?  <a href="tel:724-349-2770"><span class="glyphicon glyphicon-phone"></span></a>  us!
-          </p>
-          <p>
-            <a href="https://www.facebook.com/brunzies.bar?fref=ts"><span class="fa fa-facebook-official fa-lg social-icons"></span></a><a href="https://twitter.com/KrisJBruns"><span class="fa fa-twitter-square fa-lg social-icons"></span></a>
-          </p>
-          <p>&copy; 2015 Gregory Knudsen</p>
+            <a href="https://www.facebook.com/brunzies.bar?fref=ts"><span class="fa fa-facebook-official fa-2x social-icons"></span></a><a href="https://twitter.com/KrisJBruns"><span class="fa fa-twitter-square fa-2x social-icons"></span></a>
+          </p><br>
+          <p id="copyright">&copy; 2015 Gregory Knudsen</p>
 
         </div>
       </footer>

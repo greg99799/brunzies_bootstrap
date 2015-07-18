@@ -199,8 +199,20 @@ footer p a {
 
 /*PHOTO GALLERY*/
 
+.page-header {
+  padding-bottom: 1%;
+  margin: 5%;
+  text-align: left;
+}
+
 .last-photo {
     display: none;
+}
+
+#see-more-photos {
+    margin-bottom: 17%;
+    text-align: center;
+    padding-bottom: 15%;
 }
 
 #overlay {

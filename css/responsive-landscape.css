@@ -59,10 +59,12 @@ INDEX PAGE
 
     .carousel-indicators {
         position: fixed;
-        bottom: 14%
+        bottom: 13%
     }
     .carousel-caption {
-        bottom: 25%;
+        top: 20%;
+        left: 60%;
+        right: 0;
     }
 
     .index-h1 {

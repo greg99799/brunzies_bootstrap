@@ -65,6 +65,11 @@ a {
 
 .navbar-inverse .navbar-brand {
     color: #fff;
+    padding: 6% 0 0 0;
+}
+
+.navbar-toggle {
+    margin: 5% 0 0 0;
 }
 
 .navbar-default .navbar-brand {

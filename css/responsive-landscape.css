@@ -146,8 +146,21 @@ PHOTO GALLERY
         color: white;
     }
 
+/********************************
+CONTACT PAGE
+********************************/
+    
+    #address {
+        margin: 7% 0 0 0;
+    }
+
+    #map-container {
+        height: 400px;
+    }
 
 }
+
+
 
 /********************************
 TABLET LANDSCAPE

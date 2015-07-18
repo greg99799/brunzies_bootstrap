@@ -57,9 +57,12 @@ INDEX PAGE
         margin-bottom: 0;
     }
 
-    .carousel-indicators,
+    .carousel-indicators {
+        position: fixed;
+        bottom: 14%
+    }
     .carousel-caption {
-        bottom: 16%;
+        bottom: 25%;
     }
 
     .index-h1 {

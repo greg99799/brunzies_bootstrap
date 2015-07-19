@@ -106,6 +106,13 @@ MENU PAGE
         font-size: 1.5em;
     }
 
+    .menu-headers {
+        margin-right: 3%;
+        margin-left: 3%;
+        margin-top: 7%;
+        padding-top: 3%;
+    }
+
 /********************************
 PHOTO GALLERY 
 ********************************/
@@ -261,6 +268,10 @@ MENU PAGE
 
     .drink-specials {
         font-size: 2.15em;
+    }
+
+    .row {
+        margin-bottom: 0;
     }
 
 

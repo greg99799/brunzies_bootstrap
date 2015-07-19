@@ -108,8 +108,8 @@ INDEX PAGE
     font-weight: 700;
 }
 
-#index-title {
-
+.carousel-caption {
+    text-shadow: 2px 2px 2px #000;
 }
 
 .carousel,

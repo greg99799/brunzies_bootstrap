@@ -104,6 +104,8 @@ MENU PAGE
 
     .drink-specials {
         font-size: 1.5em;
+        text-align: left;
+
     }
 
     .menu-headers {
@@ -132,6 +134,11 @@ PHOTO GALLERY
 
     .gallery-header {
         margin-bottom: 1%;
+        margin: 6% 0 1% 0;
+    }
+
+    #see-more-photos {
+        margin-bottom: 0;
     }
 
     /*#overlay {
@@ -272,7 +279,7 @@ MENU PAGE
 
     .drink-specials {
         font-size: 2.05em;
-        text-align: left;
+
     }
 
     .menu-row {
@@ -296,6 +303,10 @@ PHOTO GALLERY PAGE
 
     .gallery-top-margin {
         margin-top: 0;
+    }
+
+    #see-more-photos {
+        margin-bottom: 2%;
     }
 
 

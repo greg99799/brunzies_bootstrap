@@ -48,6 +48,10 @@ a {
     border-bottom: 1px solid #fff;
 }
 
+.navbar-inverse .navbar-nav>.active>a {
+    background-color: #222;
+}
+
 /*ADD TO RESPONSIVE STYLESHEETS*/
 
 /*.navbar-header {
@@ -184,7 +188,7 @@ footer p a {
 }
 
 .drink-specials {
-    margin-bottom: 20%;
+    margin-bottom: 10%;
     background-color: rgba(0,0,0,.55);
     padding-top: 1%;
     border-radius: 5%;
@@ -251,9 +255,13 @@ footer p a {
     width: 100%;
 }
 
-.col-xs-12 p {
+.row p {
     text-align: left;
     padding-left: 1%;
+}
+
+.row {
+    margin-bottom: 20%;
 }
 
 #map-container {

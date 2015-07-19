@@ -165,7 +165,7 @@ CONTACT PAGE
         height: 400px;
     }
 
-    .row {
+    .contact-row {
         margin-bottom: 5%;
     }
 
@@ -270,8 +270,16 @@ MENU PAGE
         font-size: 2.15em;
     }
 
-    .row {
+    .menu-row {
         margin-bottom: 0;
+    }
+
+    .menu-headers {
+        margin-right: 3%;
+        margin-left: 3%;
+        margin-top: 7%;
+        margin: 7% 3% 2% 3%; 
+        padding-top: 3%;
     }
 
 
@@ -286,6 +294,32 @@ PHOTO GALLERY PAGE
     }
 
 
+/********************************
+CONTACT PAGE 
+********************************/
+
+
+    .contact-row {
+        margin-bottom: 13%;
+        margin-top: 5%;
+        background-color: rgba(0,0,0,.15);
+    }
+
+    .contact-info {
+        font-size: 1.5em;
+    }
+
+    #next-to-subs,
+    #no-reservations {
+        font-size: .7em;
+        font-style: italic;
+    }
+
+
+
+    #address {
+        line-height: 30px;
+    }
 
 
 

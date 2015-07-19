@@ -246,21 +246,29 @@ footer p a {
 /*CONTACT PAGE*/
 
 #address {
-    font-size: 1.350em;
-    /*I hate how I'm mixing px with % here*/
+    /*font-size: 1.350em;*/
     margin: 19% 0 20% 0;
-    background-color: rgba(0,0,0,.15);
-    padding: 4% 0 0 0;
+    /*background-color: rgba(0,0,0,.15);*/
+    /*padding: 4% 0 0 0;*/
     /*margin-top: 75px;*/
     width: 100%;
+    /*line-height: 15px;*/
 }
 
-.row p {
+.contact-info {
+    font-size: 1.35em;
+    padding: 4% 0 0 0;
+    /* margin-top: 75px; */
+    width: 100%;
+    line-height: 15px;
     text-align: left;
-    padding-left: 1%;
+    padding-left: 4%;
 }
 
-.row {
+.contact-row p {
+}
+
+.contact-row {
     margin-bottom: 20%;
 }
 
@@ -274,8 +282,11 @@ footer p a {
 }
 
 
+#next-to-subs,
 #no-reservations {
     font-size: .850em;
+    font-style: italic;
+    margin-top: -1.3%;
 }
 
 

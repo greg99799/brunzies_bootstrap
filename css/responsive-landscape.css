@@ -157,9 +157,9 @@ PHOTO GALLERY
 CONTACT PAGE
 ********************************/
     
-    #address {
+    /*#address {
         margin: 7% 0 0 0;
-    }
+    }*/
 
     #map-container {
         height: 400px;
@@ -167,8 +167,12 @@ CONTACT PAGE
 
     .contact-row {
         margin-bottom: 5%;
+
     }
 
+    .contact-info {
+        margin-top: 7%
+    }
 }
 
 
@@ -267,7 +271,8 @@ MENU PAGE
 ********************************/
 
     .drink-specials {
-        font-size: 2.15em;
+        font-size: 2.05em;
+        text-align: left;
     }
 
     .menu-row {
@@ -300,26 +305,25 @@ CONTACT PAGE
 
 
     .contact-row {
-        margin-bottom: 13%;
-        margin-top: 5%;
+        margin-bottom: 10%;
+        /*margin-top: 5%;*/
         background-color: rgba(0,0,0,.15);
     }
 
     .contact-info {
-        font-size: 1.5em;
+        font-size: 1.85em;
+        line-height: 25px;
+        padding-top: 0;
+        margin-top: 11%;
     }
 
     #next-to-subs,
     #no-reservations {
-        font-size: .7em;
+        font-size: .75em;
         font-style: italic;
     }
 
 
-
-    #address {
-        line-height: 30px;
-    }
 
 
 

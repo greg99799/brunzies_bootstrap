@@ -64,4 +64,12 @@ INDEX PAGE TABLET PORTRAIT
         bottom: 75px;
     }
 
+
+
+    .navbar-inverse
+    .navbar-brand {
+        padding: 16% 0 0 15%; 
+    }
+
+
 }

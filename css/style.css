@@ -104,15 +104,36 @@ INDEX PAGE
 
 .index-h1 {
     font-size: 5.5em;
-    font-family: 'Quicksand', Helvetica, sans-serif;
+    font-family: 'Raleway', Helvetica, sans-serif;
     font-weight: 700;
-}
-
-.carousel-caption {
     text-shadow: 2px 2px 2px #000;
 }
 
-.carousel,
+.index-fun {
+    font-family: 'Fontdiner Swanky';
+    font-size: 6.5em;
+}
+
+.carousel {
+    position: fixed;
+    top: 10%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: initial;
+    margin-bottom: 0;
+}
+
+.carousel-indicators {
+    bottom: 10%;
+}
+
+.carousel-caption {
+    bottom: 10%;
+    text-shadow: 2px 2px 2px #000;
+}
+
+
 .item,
 .active {
     height: 100%;

@@ -48,6 +48,10 @@ a {
     border-bottom: 1px solid #fff;
 }
 
+.navbar-inverse .navbar-nav>li>a {
+    font-family: 'Raleway';
+}
+
 .navbar-inverse .navbar-nav>.active>a {
     background-color: #222;
 }
@@ -103,15 +107,10 @@ INDEX PAGE
     /*CAROUSEL CUSTOMIZATIONS*/
 
 .index-h1 {
-    font-size: 5.5em;
+    font-size: 4.5em;
     font-family: 'Raleway', Helvetica, sans-serif;
     font-weight: 700;
     text-shadow: 2px 2px 2px #000;
-}
-
-.index-fun {
-    font-family: 'Fontdiner Swanky';
-    font-size: 6.5em;
 }
 
 .carousel {

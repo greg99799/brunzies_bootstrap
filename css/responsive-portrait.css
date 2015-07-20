@@ -45,21 +45,19 @@ INDEX PAGE TABLET PORTRAIT
         left: 0;
     }
 
-    .carousel,
-    .carousel .item {
-        height: 960px;
+    .carousel {
+        top: 4%;
     }
 
-    .carousel {
-        margin-bottom: 70px;
+    .carousel,
+    .carousel .item {
+        height: 100%;
     }
 
     .carousel-caption,
     .carousel-indicators {
-        bottom: 75px;
+        bottom: 11%;
     }
-
-
 
     .navbar-inverse
     .navbar-brand {

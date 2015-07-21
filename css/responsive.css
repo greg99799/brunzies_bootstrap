@@ -7,11 +7,40 @@
     ********************************/    
 
     .carousel-indicators {
-        bottom: 62px
+        bottom: 62px;
     }
 
     .carousel-caption {
-        padding-bottom: 65px;
+        padding-bottom: 10%;
+    }
+
+    .carousel .item img {
+        left: 0;
+    
+    }
+
+
+}
+
+@media screen and (max-width: 568px) {
+
+    /*FOR iPhone5 AND BEFORE*/
+
+    /********************************
+    INDEX PAGE
+    ********************************/    
+
+    .carousel-indicators {
+        bottom: 62px;
+    }
+
+    .carousel-caption {
+        padding-bottom: 10%;
+    }
+
+    .carousel .item img {
+        left: 0;
+    
     }
 
 

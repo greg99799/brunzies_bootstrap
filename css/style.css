@@ -135,6 +135,7 @@ INDEX PAGE
 
 .carousel-indicators {
     bottom: 10%;
+    
 }
 
 .carousel-caption {
@@ -162,7 +163,7 @@ INDEX PAGE
 .carousel .item img {
     max-width: none;
     height: 100%;
-    left: -8%;
+    /*left: -8%;*/
 }
 
 .carousel .item img.first-slide {

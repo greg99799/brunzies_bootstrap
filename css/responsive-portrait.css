@@ -41,6 +41,15 @@ INDEX PAGE TABLET PORTRAIT
         margin-top: 8px;
     }
     
+    .navbar-inverse
+    .navbar-brand {
+        padding: 16% 0 0 15%; 
+    }
+
+    .index-h1 {
+        font-size: 8.5em;
+    }
+    
     .carousel .item img {
         left: 0;
     }
@@ -59,10 +68,6 @@ INDEX PAGE TABLET PORTRAIT
         bottom: 11%;
     }
 
-    .navbar-inverse
-    .navbar-brand {
-        padding: 16% 0 0 15%; 
-    }
 
 
     .drink-specials {

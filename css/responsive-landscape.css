@@ -101,6 +101,12 @@ INDEX PAGE
         margin-bottom: 125px;
     }*/
 
+    .carousel .item img {
+        /*max-width: none;
+        height: 100%;*/
+        left: 0; 
+    }
+
     .carousel .item img.first-slide {
         content: url(../img/index/taps-landscape.jpg);
     }
@@ -277,9 +283,9 @@ INDEX PAGE
         height: 100%;
     }
 
-    .carousel .item img {
+    /*.carousel .item img {
         left: -8%;
-    }
+    }*/
 
     .carousel {
         margin-bottom: 0;
@@ -302,6 +308,7 @@ INDEX PAGE
     
     .carousel-indicators {
         bottom: 8%;
+        margin-bottom: 1.7%;
     }
 
     

@@ -21,7 +21,7 @@ NAVBAR
     }
 
     .navbar-inverse .navbar-brand {
-        padding-top: 2%;
+        padding-top: 3%;
     }
 
     .navbar-right {
@@ -362,7 +362,7 @@ CONTACT PAGE
 
 
     .contact-row {
-        margin-bottom: 10%;
+        margin-bottom: 12%;
         /*margin-top: 5%;*/
         background-color: rgba(0,0,0,.15);
     }

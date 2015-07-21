@@ -29,4 +29,27 @@
     
     }
 
+    .menu {
+        margin-left: -5%;
+    }
+
+    .menu-headers {
+        margin-top: -1%;
+        margin-bottom: 1%;
+    }
+
+
+    #see-more-photos {
+        margin-bottom: 5%;
+    }
+
+
+    #map-container {
+        height: 600px;
+    }
+
+    .contact-row {
+        margin-bottom: 9.8%;
+    }
+
 }

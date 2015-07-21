@@ -135,7 +135,7 @@ INDEX PAGE
 
 .carousel-indicators {
     bottom: 10%;
-    
+
 }
 
 .carousel-caption {
@@ -234,6 +234,7 @@ footer p a {
 
 .headers,
 .menu-headers {
+    font-size: 3em;
     font-family: 'Raleway';
     text-shadow: 2px 2px 2px #000;
     text-align: left;
@@ -249,6 +250,7 @@ footer p a {
 
 .page-header {
   padding-bottom: 1%;
+  padding-top: 2%;
   margin: 5%;
   text-align: left;
 }

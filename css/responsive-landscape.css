@@ -119,14 +119,12 @@ MENU PAGE
 ********************************/
     
     .col-xs-12 {
-        width: 49%;
+        width: 48%;
         margin-bottom: 10%;
     }
 
     .drink-specials {
         font-size: 1.5em;
-        text-align: left;
-
     }
 
     .menu-headers {

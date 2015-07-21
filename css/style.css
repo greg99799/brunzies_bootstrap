@@ -206,18 +206,20 @@ footer p a {
 /*MENU PAGE*/
 
 .menu {
-    border-radius: 10px;
-    margin-bottom: 10px;
+    border-radius: 2%;
+    margin-bottom: 3%;
 }
 
 .drink-specials {
-    font-family: 'Raleway';
-    margin-bottom: 10%;
-    background-color: rgba(0,0,0,.55);
-    padding-top: 1%;
-    border-radius: 5%;
-    font-size: 2em;
-    text-align: left;
+  font-family: 'Raleway';
+  margin-bottom: 18%;
+  background-color: rgba(0,0,0,.55);
+  padding-top: 1%;
+  border-radius: 2%;
+  font-size: 2em;
+  text-align: left;
+  width: 92%;
+  margin-left: 4%;
 }
 
 

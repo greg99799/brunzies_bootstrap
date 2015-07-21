@@ -7,6 +7,7 @@ html {
 
 body {
     color: #fff;
+
     text-align: center;
     background-color: #222;
     /*font-family: 'Arimo', sans-serif;*/
@@ -226,7 +227,7 @@ footer p a {
 .headers,
 .menu-headers {
     font-family: 'Raleway';
-    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    text-shadow: 2px 2px 2px #000;
     text-align: left;
 }
 
@@ -253,9 +254,12 @@ footer p a {
 }
 
 #see-more-photos {
+    font-family: 'Raleway';
     margin-bottom: 17%;
     text-align: center;
     padding-bottom: 15%;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px #000;
 }
 
 #overlay {
@@ -298,6 +302,7 @@ footer p a {
     line-height: 15px;
     text-align: left;
     padding-left: 4%;
+    text-shadow: 1px 1px 1px #000;
 }
 
 .contact-row {

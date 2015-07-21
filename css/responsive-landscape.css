@@ -158,6 +158,7 @@ PHOTO GALLERY
 
     #see-more-photos {
         margin-bottom: 0;
+        font-size: 2.5em;
     }
 
     /*#overlay {
@@ -335,8 +336,7 @@ MENU PAGE
     .menu-headers {
         margin-right: 3%;
         margin-left: 3%;
-        margin-top: 7%;
-        margin: 7% 3% 2% 3%; 
+        margin-top: 5%;
         padding-top: 3%;
     }
 

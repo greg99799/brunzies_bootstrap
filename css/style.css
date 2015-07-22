@@ -73,6 +73,7 @@ a.thumbnail:hover {
 }
 
 .navbar-brand {
+    font-family: 'Rufina';
     font-size: 2.5em;
     /*color: #fff;*/
 }

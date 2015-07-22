@@ -145,7 +145,7 @@ PHOTO GALLERY
 ********************************/
     
     .col-xs-6 {
-        width: 24.97%;
+        width: 24.9%;
     }
 
     .last-photo {
@@ -153,7 +153,7 @@ PHOTO GALLERY
     }
 
     .gallery-top-margin {
-        margin-top: -6%;
+        margin-top: -4%;
         height: 100%;
     }
 
@@ -350,54 +350,49 @@ MENU PAGE
     .page-header {
         font-size: 4em;
     }
-}
-
-
-
-/********************************
-PHOTO GALLERY PAGE 
-********************************/
-
-
-    .gallery-top-margin {
-        margin-top: 0;
-    }
-
-    #see-more-photos {
-        margin-bottom: 2%;
-    }
-
-
-/********************************
-CONTACT PAGE 
-********************************/
-
-
-    .contact-row {
-        margin-bottom: 12%;
-        /*margin-top: 5%;*/
-        /*background-color: rgba(0,0,0,.15);*/
-    }
-
-    .contact-info {
-        font-size: 1.85em;
-        line-height: 25px;
-        padding-top: 0;
-        margin-top: 11%;
-    }
-
-    #next-to-subs,
-    #no-reservations {
-        font-size: .75em;
-        font-style: italic;
-    }
 
 
 
 
+    /********************************
+    PHOTO GALLERY PAGE 
+    ********************************/
+        .col-xs-6 {
+            width: 24.9%;
+        }
+
+        /*.gallery-top-margin {
+            margin-top: 0;
+        }*/
+
+        #see-more-photos {
+            margin-bottom: 3%;
+        }
 
 
+    /********************************
+    CONTACT PAGE 
+    ********************************/
 
+
+        .contact-row {
+            /*margin-bottom: 12%;*/
+            /*margin-top: 5%;*/
+            /*background-color: rgba(0,0,0,.15);*/
+        }
+
+        /*.contact-info {
+            font-size: 1.85em;
+            line-height: 25px;
+            padding-top: 0;
+            margin-top: 11%;
+        }
+
+        #next-to-subs,
+        #no-reservations {
+            font-size: .75em;
+            font-style: italic;
+        }*/
 
 
 

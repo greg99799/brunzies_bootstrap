@@ -266,9 +266,9 @@ footer p a {
 
 #see-more-photos {
     font-family: 'Raleway';
-    margin-bottom: 17%;
+    margin-bottom: 0%;
     text-align: center;
-    padding-bottom: 15%;
+    padding-bottom: 19%;
     font-size: 1.5em;
     text-shadow: 1px 1px 1px #000;
 }
@@ -310,10 +310,11 @@ footer p a {
     padding: 4% 0 0 0;
     /*margin-bottom: 10%; */
     width: 100%;
-    line-height: 15px;
+    line-height: 98%;
     text-align: left;
     padding-left: 4%;
     text-shadow: 1px 1px 1px #000;
+    transition: .5s;
 }
 
 .contact-row {
@@ -371,6 +372,19 @@ footer p a {
     font-family: 'Raleway', Helvetica, sans-serif;
 }
 
+
+/*DESKTOP PSEUDO CLASSES*/
+
+.col-xs-12.contact-info:hover {
+    transition: .5s;
+    font-size: 2em;
+    color: #bbb;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    transition: .5s;
+    margin-top: 2%;
+}
 
 
 

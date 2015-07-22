@@ -43,7 +43,8 @@ INDEX PAGE TABLET PORTRAIT
     
     .navbar-inverse
     .navbar-brand {
-        padding: 16% 0 0 15%; 
+        padding: 15% 0 0 15%; 
+        font-size: 3em;
     }
 
     .index-h1 {
@@ -78,6 +79,11 @@ INDEX PAGE TABLET PORTRAIT
     .drink-specials {
         width: 96%;
         margin-left: 2%;
+    }
+
+    /*Photo Gallery display 'hack'*/
+    .col-xs-6 {
+        width: 49%;
     }
 
 

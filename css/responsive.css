@@ -52,6 +52,12 @@
 
 @media screen and (min-width: 1025px) {
     
+    .navbar-inverse .navbar-brand {
+        padding-top: 15%;
+        /*padding-left: 7%;*/
+        /*margin-left: 0;*/
+        font-size: 3em;
+    }  
 
     .carousel .item img {
         left: 0;
@@ -69,8 +75,12 @@
 
 
     #see-more-photos {
-        margin-bottom: 5%;
+        margin-bottom: 2%;
     }
+
+    .col-xs-6 {
+        width: 24.6%;
+    }   
 
 
     #map-container {

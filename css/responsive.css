@@ -64,6 +64,47 @@
     
     }
 
+    .carousel .item img.first-slide {
+        /*content: '';*/
+        content: url(../img/index/taps-widescreen.jpg);
+    }
+    .carousel .item img.second-slide {
+        /*content: '';*/
+        content: url(../img/index/sliders2-widescreen.jpg);
+    }
+    .carousel .item img.third-slide {
+        /*content: '';*/
+        content: url(../img/index/taps-tablet-landscape2.jpg);
+    }
+    .carousel .item img.fourth-slide {
+        /*content: '';*/
+        content: url(../img/index/toasting-widescreen.jpg);
+    }
+
+    /*FOR FIREFOX*/
+
+    .carousel .item img.first-slide:after {
+        /*content: '';*/
+        content: url(../img/index/taps3-widescreen.jpg);
+        max-width: none;
+
+    }
+    .carousel .item img.second-slide:after {
+        /*content: '';*/
+        content: url(../img/index/sliders2-widescreen.jpg);
+        max-width: none;
+    }
+    .carousel .item img.third-slide:after {
+        /*content: '';*/
+        content: url(../img/index/bottles-widescreen.jpg);
+        max-width: none;
+    }
+    .carousel .item img.fourth-slide:after {
+        /*content: '';*/
+        content: url(../img/index/toasting-widescreen.jpg);
+        max-width: none;
+    }
+
     .menu {
         margin-left: -5%;
     }

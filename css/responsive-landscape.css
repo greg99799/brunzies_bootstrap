@@ -108,10 +108,10 @@ INDEX PAGE
     }
 
     .carousel .item img.first-slide {
-        content: url(../img/index/taps-landscape.jpg);
+        content: url(../img/index/taps6-widescreen.jpg);
     }
     .carousel .item img.second-slide {
-        content: url(../img/index/sliders-tablet-landscape.jpg);
+        content: url(../img/index/sliders2-widescreen.jpg);
     }
     .carousel .item img.third-slide {
         content: url(../img/index/taps-tablet-landscape2.jpg);
@@ -293,10 +293,10 @@ INDEX PAGE
     }
     
     .carousel .item img.first-slide {
-        content: url(../img/index/taps-tablet-landscape1.jpg);
+        content: url(../img/index/taps6-widescreen.jpg);
     }
     .carousel .item img.second-slide {
-        content: url(../img/index/sliders-tablet-landscape.jpg);
+        content: url(../img/index/sliders2-widescreen.jpg);
     }
     .carousel .item img.third-slide {
         content: url(../img/index/taps-tablet-landscape2.jpg);
@@ -333,7 +333,7 @@ MENU PAGE
 
     .drink-specials {
         font-size: 2.05em;
-
+        transition: 1s;
     }
 
     .menu-row {

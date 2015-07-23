@@ -168,12 +168,12 @@ INDEX PAGE
 }
 
 .carousel .item img.first-slide {
-    content: url(../img/index/taps-portrait.jpg);
+    content: url(../img/index/taps2-portrait.jpg);
     
 }
 
 .carousel .item img.second-slide {
-    content: url(../img/index/sliders-phone-portrait.jpg);
+    content: url(../img/index/sliders2-widescreen.jpg);
     
 }
 .carousel .item img.third-slide {
@@ -373,18 +373,6 @@ footer p a {
 }
 
 
-/*DESKTOP PSEUDO CLASSES*/
-
-.col-xs-12.contact-info:hover {
-    transition: .5s;
-    font-size: 2em;
-    color: #ccc;
-}
-
-.navbar-inverse .navbar-nav>li>a:hover {
-    transition: .5s;
-    margin-top: 2%;
-}
 
 
 

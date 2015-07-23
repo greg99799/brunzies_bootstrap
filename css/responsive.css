@@ -66,7 +66,7 @@
 
     .carousel .item img.first-slide {
         /*content: '';*/
-        content: url(../img/index/taps-widescreen.jpg);
+        content: url(../img/index/taps6-widescreen.jpg);
     }
     .carousel .item img.second-slide {
         /*content: '';*/
@@ -131,5 +131,56 @@
     .contact-row {
         margin-bottom: 9.8%;
     }
+
+
+
+
+    /*DESKTOP PSEUDO CLASSES*/
+
+    .col-xs-12.contact-info:hover {
+        transition: .5s;
+        font-size: 2em;
+        color: #ccc;
+        background-color: rgba(0,0,0,.5);
+        border-radius: 2%;
+    }
+
+    .contact-info {
+        margin-top: 11%;
+        margin-left: 4%;
+        padding: 1% 0 0 1%;
+    }
+
+    .navbar-inverse .navbar-nav>li>a:hover {
+        transition: .5s;
+        margin-top: 2%;
+    }
+
+    .col-xs-12.drink-specials:hover {
+      transition: 1s;
+      /* font-size: 3em; */
+      /* height: 600px; */
+      color: #7F4439;
+      background-color: #ccc;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }

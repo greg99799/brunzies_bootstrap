@@ -1,4 +1,63 @@
 /********************************
+INDEX PAGE TABLET PORTRAIT
+********************************/
+
+
+@media screen and (min-width: 668px) and (orientation: portrait) {
+
+
+    .navbar-right {
+        margin-top: 8px;
+    }
+    
+    .navbar-inverse
+    .navbar-brand {
+        padding: 15% 0 0 15%; 
+        font-size: 3em;
+    }
+
+    .index-h1 {
+        font-size: 8.5em;
+    }
+
+    .carousel .item img {
+        left: 0;
+    }
+
+    .carousel {
+        top: 4%;
+    }
+
+    .carousel,
+    .carousel .item {
+        height: 100%;
+    }
+
+    .carousel-caption,
+    .carousel-indicators {
+        bottom: 11%;
+    }
+
+    .headers,
+    .menu-headers {
+        font-size: 4em;
+    }
+
+    .drink-specials {
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    /*Photo Gallery display 'hack'*/
+    .col-xs-6 {
+        width: 49%;
+    }
+
+
+}
+
+
+/********************************
 PHONE LANDSCAPE
 ********************************/
 
@@ -327,9 +386,9 @@ INDEX PAGE
     }
 
 
-/********************************
-MENU PAGE 
-********************************/
+    /********************************
+    MENU PAGE 
+    ********************************/
 
     .drink-specials {
         font-size: 2.05em;
@@ -369,6 +428,7 @@ MENU PAGE
             margin-bottom: 3%;
         }
 
+    
 
 }
 

@@ -378,7 +378,7 @@ footer p a {
 .col-xs-12.contact-info:hover {
     transition: .5s;
     font-size: 2em;
-    color: #bbb;
+    color: #ccc;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {

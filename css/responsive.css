@@ -48,6 +48,10 @@ INDEX PAGE TABLET PORTRAIT
         margin-left: 2%;
     }
 
+    .contact-info {
+        font-size: 2em;
+    }
+
     /*Photo Gallery display 'hack'*/
     .col-xs-6 {
         width: 49%;
@@ -435,6 +439,8 @@ MENU PAGE
     .contact-row {
         margin-bottom: 18%;
     }
+
+
 
 
 }

@@ -8,7 +8,7 @@ html {
 body {
     color: #fff;
     text-align: center;
-    background-color: #222;
+    background-color: #000;
     /*font-family: 'Arimo', sans-serif;*/
     height: 100%;
 }
@@ -45,7 +45,7 @@ a.thumbnail:hover {
 
 #nav-logo {
     float: left;
-    max-width: 42%;
+    max-width: 100%;
     max-height: 52px;
 }
 
@@ -59,8 +59,9 @@ a.thumbnail:hover {
     font-size: 1.3em;
 }
 
+.navbar-inverse,
 .navbar-inverse .navbar-nav>.active>a {
-    background-color: #222;
+    background-color: #000;
 }
 
 /*ADD TO RESPONSIVE STYLESHEETS*/
@@ -83,8 +84,8 @@ a.thumbnail:hover {
 }
 
 .navbar-inverse .navbar-brand {
-    color: #fff;
-    padding: 7% 0 0 0;
+    /*color: #fff;*/
+    padding: 1% 0 0 0;
 }
 
 .navbar-toggle {
@@ -98,17 +99,6 @@ a.thumbnail:hover {
 .navbar-default .navbar-nav > li > a {
     color: #fff;
 }
-
-
-    /*NAVBAR PSEUDO CLASSES - WILL GO TO RESPONSIVE.CSS*/
-.nav-selected {
-    color: #fff;
-}
-
-.navbar-default .navbar-nav > li > a:visited {
-    color: #888;
-}
-
 
 /******************************
 INDEX PAGE
@@ -135,7 +125,7 @@ INDEX PAGE
 }
 
 .carousel-indicators {
-    bottom: 10%;
+    bottom: 11.5%;
 
 }
 

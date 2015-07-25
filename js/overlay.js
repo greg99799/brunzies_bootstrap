@@ -1,6 +1,3 @@
-//Problem: User when clicking on image goes to dead end
-//Solution: Create an overlay with the large image - lightbox
-
 var $overlay = $("<div id='overlay'></div>");
 var $image = $("<img>");
 var $caption = $("<p></p>")
@@ -10,7 +7,6 @@ $overlay.append($image);
 //add caption to overlay
 $overlay.append($caption);
 
-//2. Add overlay  
 $("body").append($overlay)
 //1. Capture click event on a link to an image
 $(".gallery-pic a").click( function(event) {

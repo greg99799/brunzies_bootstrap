@@ -158,20 +158,20 @@ INDEX PAGE
 }
 
 .carousel .item img.first-slide {
-    content: url(../img/index/taps2-portrait.jpg);
+    content: url(../img/index/taps1-portrait-color.jpg);
     
 }
 
 .carousel .item img.second-slide {
-    content: url(../img/index/sliders2-widescreen.jpg);
+    content: url(../img/index/sliders-color.jpg);
     
 }
 .carousel .item img.third-slide {
-    content: url(../img/index/taps4-phone-portrait.jpg);
+    content: url(../img/index/taps2-portrait-color.jpg);
     
 }
 .carousel .item img.fourth-slide {
-    content: url(../img/index/people-toasting1.jpg);
+    content: url(../img/index/toasting-portrait-color.jpg);
     
 } 
 

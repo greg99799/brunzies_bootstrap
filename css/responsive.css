@@ -176,16 +176,16 @@ INDEX PAGE
     }
 
     .carousel .item img.first-slide {
-        content: url(../img/index/taps6-widescreen.jpg);
+        content: url(../img/index/taps1-landscape-color.jpg);
     }
     .carousel .item img.second-slide {
-        content: url(../img/index/sliders2-widescreen.jpg);
+        content: url(../img/index/sliders-color.jpg);
     }
     .carousel .item img.third-slide {
-        content: url(../img/index/taps-tablet-landscape2.jpg);
+        content: url(../img/index/taps2-landscape-color.jpg);
     }
     .carousel .item img.fourth-slide {
-        content: url(../img/index/toasting-widescreen.jpg);
+        content: url(../img/index/toasting-color.jpg);
     }
 
 /********************************
@@ -366,7 +366,7 @@ INDEX PAGE
         top: 0;
     }
     
-    .carousel .item img.first-slide {
+    /*.carousel .item img.first-slide {
         content: url(../img/index/taps6-widescreen.jpg);
     }
     .carousel .item img.second-slide {
@@ -377,7 +377,7 @@ INDEX PAGE
     }
     .carousel .item img.fourth-slide {
         content: url(../img/index/toasting-widescreen.jpg);
-    }
+    }*/
 
     
     .carousel-indicators {
@@ -539,33 +539,31 @@ MENU PAGE
     }
 
     .carousel .item img.first-slide {
-        /*content: '';*/
-        content: url(../img/index/taps6-widescreen.jpg);
+        content: url(../img/index/taps2-landscape-color.jpg);
     }
     .carousel .item img.second-slide {
-        /*content: '';*/
-        content: url(../img/index/sliders2-widescreen.jpg);
+        content: url(../img/index/sliders-color.jpg);
     }
     .carousel .item img.third-slide {
-        /*content: '';*/
-        content: url(../img/index/taps-tablet-landscape2.jpg);
+        content: url(../img/index/bottles2-color.jpg);
     }
     .carousel .item img.fourth-slide {
-        /*content: '';*/
-        content: url(../img/index/toasting-widescreen.jpg);
+        content: url(../img/index/toasting-color.jpg);
     }
+
+    
 
     /*FOR FIREFOX*/
 
     .carousel .item img.first-slide:after {
         /*content: '';*/
-        content: url(../img/index/taps3-widescreen.jpg);
-        max-width: none;
+        content: url(../img/index/taps-firefox.jpg);
+        /*max-width: none;*/
 
     }
     .carousel .item img.second-slide:after {
         /*content: '';*/
-        content: url(../img/index/sliders2-widescreen.jpg);
+        content: url(../img/index/sliders-color.jpg);
         max-width: none;
     }
     .carousel .item img.third-slide:after {
@@ -575,7 +573,7 @@ MENU PAGE
     }
     .carousel .item img.fourth-slide:after {
         /*content: '';*/
-        content: url(../img/index/toasting-widescreen.jpg);
+        content: url(../img/index/toasting-color.jpg);
         max-width: none;
     }
 

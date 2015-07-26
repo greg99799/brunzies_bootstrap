@@ -268,6 +268,10 @@ footer p a {
     text-shadow: 1px 1px 1px #000;
 }
 
+#see-more-photos p a {
+    color: #98D4F7;
+}
+
 #overlay {
     background: rgba(0,0,0,.7);
     width: 100%;
@@ -310,6 +314,10 @@ footer p a {
     padding-left: 4%;
     text-shadow: 1px 1px 1px #000;
     transition: .5s;
+}
+
+.contact-info p a {
+    color: #98D4F7;
 }
 
 .contact-row {

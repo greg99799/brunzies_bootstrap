@@ -539,13 +539,13 @@ MENU PAGE
     }
 
     .carousel .item img.first-slide {
-        content: url(../img/index/taps2-landscape-color.jpg);
+        content: url(../img/index/taps1-landscape-color.jpg);
     }
     .carousel .item img.second-slide {
         content: url(../img/index/sliders-color.jpg);
     }
     .carousel .item img.third-slide {
-        content: url(../img/index/bottles2-color.jpg);
+        content: url(../img/index/taps2-landscape-color.jpg);
     }
     .carousel .item img.fourth-slide {
         content: url(../img/index/toasting-color.jpg);
@@ -592,7 +592,7 @@ MENU PAGE
     }
 
     .col-xs-6 {
-        width: 24.6%;
+        width: 25%;
     }   
 
 

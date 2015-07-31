@@ -59,7 +59,7 @@ INDEX PAGE TABLET PORTRAIT
 
     /*Photo Gallery display 'hack'*/
     .col-xs-6 {
-        width: 49%;
+        width: 50%;
     }
 
 
@@ -213,7 +213,7 @@ PHOTO GALLERY
 ********************************/
     
     .col-xs-6 {
-        width: 24.9%;
+        width: 25%;
     }
 
     .last-photo {
@@ -432,7 +432,7 @@ MENU PAGE
     PHOTO GALLERY PAGE 
     ********************************/
         .col-xs-6 {
-            width: 24%;
+            width: 25%;
         }
 
         /*.gallery-top-margin {
@@ -642,20 +642,5 @@ MENU PAGE
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+

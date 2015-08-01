@@ -179,13 +179,13 @@ INDEX PAGE
         content: url(../img/index/taps1-mobile-landscape-color.jpg);
     }
     .carousel .item img.second-slide {
-        content: url(../img/index/sliders-color.jpg);
+        content: url(../img/index/sliders-mobile-color.jpg);
     }
     .carousel .item img.third-slide {
-        content: url(../img/index/taps2-landscape-color.jpg);
+        content: url(../img/index/taps2-mobile-landscape-color.jpg);
     }
     .carousel .item img.fourth-slide {
-        content: url(../img/index/toasting-color.jpg);
+        content: url(../img/index/toasting-mobile-color.jpg);
     }
 
 /********************************

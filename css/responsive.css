@@ -640,14 +640,6 @@ MENU PAGE
         font-size: 2.15em;
     }
 
-    .col-xs-12.drink-specials.list-group.list-group-item-heading:hover {
-        transition: 1s;
-        border-bottom: 1px solid #000;
-    }
-    /*.list-group-item-heading {
-        transition: 1s;
-    }*/
-
 
 
 }

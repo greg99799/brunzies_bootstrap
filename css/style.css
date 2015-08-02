@@ -163,7 +163,7 @@ INDEX PAGE
 }
 
 .carousel .item img.second-slide {
-    content: url(../img/index/sliders-color.jpg);
+    content: url(../img/index/sliders-mobile-color.jpg);
     
 }
 .carousel .item img.third-slide {
@@ -252,7 +252,7 @@ footer p a {
 }
 
 .col-xs-6 {
-    width: 49.6%;
+    width: 50%;
 }
 
 .last-photo {
@@ -267,6 +267,8 @@ footer p a {
     font-size: 1.5em;
     text-shadow: 1px 1px 1px #000;
 }
+
+
 
 #see-more-photos p a {
     color: #98D4F7;

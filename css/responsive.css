@@ -59,7 +59,7 @@ INDEX PAGE TABLET PORTRAIT
 
     /*Photo Gallery display 'hack'*/
     .col-xs-6 {
-        width: 49%;
+        width: 50%;
     }
 
 
@@ -176,16 +176,16 @@ INDEX PAGE
     }
 
     .carousel .item img.first-slide {
-        content: url(../img/index/taps1-landscape-color.jpg);
+        content: url(../img/index/taps1-mobile-landscape-color.jpg);
     }
     .carousel .item img.second-slide {
-        content: url(../img/index/sliders-color.jpg);
+        content: url(../img/index/sliders-mobile-color.jpg);
     }
     .carousel .item img.third-slide {
-        content: url(../img/index/taps2-landscape-color.jpg);
+        content: url(../img/index/taps2-mobile-landscape-color.jpg);
     }
     .carousel .item img.fourth-slide {
-        content: url(../img/index/toasting-color.jpg);
+        content: url(../img/index/toasting-mobile-color.jpg);
     }
 
 /********************************
@@ -213,7 +213,7 @@ PHOTO GALLERY
 ********************************/
     
     .col-xs-6 {
-        width: 24.9%;
+        width: 25%;
     }
 
     .last-photo {
@@ -432,7 +432,7 @@ MENU PAGE
     PHOTO GALLERY PAGE 
     ********************************/
         .col-xs-6 {
-            width: 24%;
+            width: 25%;
         }
 
         /*.gallery-top-margin {
@@ -634,28 +634,21 @@ MENU PAGE
 
     .col-xs-12.drink-specials:hover {
         transition: 1s;
-        color: #7F4439;
+        color: #000;
         background-color: #fff;
         box-shadow: 4px 3px 4px #000;
+        font-size: 2.15em;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .col-xs-12.drink-specials.list-group.list-group-item-heading:hover {
+        transition: 1s;
+        border-bottom: 1px solid #000;
+    }
+    /*.list-group-item-heading {
+        transition: 1s;
+    }*/
 
 
 
 }
+

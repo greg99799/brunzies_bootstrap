@@ -647,7 +647,7 @@ MENU PAGE
 
     .col-xs-12.drink-specials:hover {
         color: #000;
-        background-color: #fff;
+        background-color: rgba(256,256,256,0.8);
         box-shadow: 4px 3px 4px #000;
         font-size: 2.15em;
         -webkit-transition: 1s;

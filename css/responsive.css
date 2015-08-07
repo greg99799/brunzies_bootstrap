@@ -407,6 +407,10 @@ MENU PAGE
 
     .drink-specials {
         font-size: 2.05em;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
         transition: 1s;
     }
 
@@ -610,11 +614,16 @@ MENU PAGE
     /*DESKTOP PSEUDO CLASSES*/
 
     .col-xs-12.contact-info:hover {
-        transition: .5s;
         font-size: 2em;
         color: #ccc;
         background-color: rgba(0,0,0,.5);
         border-radius: 2%;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+
     }
 
     .contact-info {
@@ -624,8 +633,12 @@ MENU PAGE
     }
 
     .navbar-inverse .navbar-nav>li>a:hover {
-        transition: .5s;
         margin-top: 2%;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
     }
 
     .menu-bottles {
@@ -633,11 +646,15 @@ MENU PAGE
     }
 
     .col-xs-12.drink-specials:hover {
-        transition: 1s;
         color: #000;
-        background-color: #fff;
+        background-color: rgba(256,256,256,0.8);
         box-shadow: 4px 3px 4px #000;
         font-size: 2.15em;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+        transition: 1s;
     }
 
 

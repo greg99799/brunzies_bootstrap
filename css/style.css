@@ -13,7 +13,11 @@ body {
     height: 100%;
 }
 .background-img {
-    background: url(../img/brunzies-brick.JPG) fixed; 
+    background: url(../img/brunzies-brick.JPG) no-repeat fixed; 
+    -moz-webkit-background-size: cover;
+    -ms-webkit-background-size: cover;
+    -o-webkit-background-size: cover;
+    webkit-background-size: cover;
     background-size: cover;
 }
 

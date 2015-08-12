@@ -543,44 +543,47 @@ MENU PAGE
     }
 
     .carousel .item img.first-slide {
-        content: url(../img/index/taps1-landscape-color.jpg);
+        background: url(../img/index/taps1-landscape-color.jpg) no-repeat center;
+        background-size: cover;
     }
     .carousel .item img.second-slide {
-        content: url(../img/index/sliders-color.jpg);
+        background: url(../img/index/sliders-color.jpg) no-repeat center;
+        background-size: cover;
     }
     .carousel .item img.third-slide {
-        content: url(../img/index/taps2-landscape-color.jpg);
+        background: url(../img/index/taps2-landscape-color.jpg) no-repeat center;
+        background-size: cover;
     }
     .carousel .item img.fourth-slide {
-        content: url(../img/index/toasting-color.jpg);
+        background: url(../img/index/toasting-color.jpg) no-repeat center;
+        background-size: cover;
     }
 
     
 
     /*FOR FIREFOX*/
-
+/*
     .carousel .item img.first-slide:after {
-        /*content: '';*/
-        content: url(../img/index/taps-firefox.jpg);
-        /*max-width: none;*/
+        background: url(../img/index/taps-firefox.jpg) no-repeat center;
+        background-size: cover;
 
     }
     .carousel .item img.second-slide:after {
-        /*content: '';*/
-        content: url(../img/index/sliders-color.jpg);
+        background: url(../img/index/sliders-color.jpg) no-repeat center;
+        background-size: cover;
         max-width: none;
     }
     .carousel .item img.third-slide:after {
-        /*content: '';*/
-        content: url(../img/index/bottles-widescreen.jpg);
+        background: url(../img/index/bottles-widescreen.jpg) no-repeat center;
+        background-size: cover;
         max-width: none;
     }
     .carousel .item img.fourth-slide:after {
-        /*content: '';*/
-        content: url(../img/index/toasting-color.jpg);
+        background: url(../img/index/toasting-color.jpg) no-repeat center;
+        background-size: cover;
         max-width: none;
     }
-
+*/
     .menu {
         margin-left: -5%;
     }

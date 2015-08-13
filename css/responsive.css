@@ -336,53 +336,18 @@ INDEX PAGE
         bottom: 8%;
     }
 
-    /*.food-caption {
-        top: 12%;
-        left: 35%;
-        right: 0;
-    }
-
-    .drink-caption {
-        top: 15%;
-        left: 0;
-        right: 48%;
-    }
-
-    .fun-caption {
-        top: 12%;
-        left: 70%;
-        right: 0;
-    }*/
-
-    
 
     .carousel,
     .carousel .item {
         height: 100%;
     }
 
-    /*.carousel .item img {
-        left: -8%;
-    }*/
 
     .carousel {
         margin-bottom: 0;
         top: 0;
     }
     
-    /*.carousel .item img.first-slide {
-        content: url(../img/index/taps6-widescreen.jpg);
-    }
-    .carousel .item img.second-slide {
-        content: url(../img/index/sliders2-widescreen.jpg);
-    }
-    .carousel .item img.third-slide {
-        content: url(../img/index/taps-tablet-landscape2.jpg);
-    }
-    .carousel .item img.fourth-slide {
-        content: url(../img/index/toasting-widescreen.jpg);
-    }*/
-
     
     .carousel-indicators {
         bottom: 8%;
@@ -442,10 +407,6 @@ MENU PAGE
         .col-xs-6 {
             width: 25%;
         }
-
-        /*.gallery-top-margin {
-            margin-top: 0;
-        }*/
 
         #see-more-photos {
             margin-bottom: 3%;
@@ -536,9 +497,6 @@ MENU PAGE
     
     .navbar-inverse .navbar-brand {
         padding-top: 3%;
-        /*padding-left: 7%;*/
-        /*margin-left: 0;*/
-        /*font-size: 3em;*/
     }  
 
     .carousel .item img {
@@ -565,29 +523,6 @@ MENU PAGE
 
     
 
-    /*FOR FIREFOX*/
-/*
-    .carousel .item img.first-slide:after {
-        background: url(../img/index/taps-firefox.jpg) no-repeat center;
-        background-size: cover;
-
-    }
-    .carousel .item img.second-slide:after {
-        background: url(../img/index/sliders-color.jpg) no-repeat center;
-        background-size: cover;
-        max-width: none;
-    }
-    .carousel .item img.third-slide:after {
-        background: url(../img/index/bottles-widescreen.jpg) no-repeat center;
-        background-size: cover;
-        max-width: none;
-    }
-    .carousel .item img.fourth-slide:after {
-        background: url(../img/index/toasting-color.jpg) no-repeat center;
-        background-size: cover;
-        max-width: none;
-    }
-*/
     .menu {
         margin-left: -5%;
     }

@@ -4,7 +4,7 @@ body {
 }
 
 a {
-    color: black;
+    color: #3498DB;
 }
 
 
@@ -46,7 +46,7 @@ a {
 
 #vertical-line {
     border-left: 1px dashed #8B8B8B;
-    margin: .7% 6% 0px -5%;
+    margin: 1% 6% 0 -5%;
     height: 70px;
 }
 
@@ -54,6 +54,48 @@ a {
     margin-left: -5%;
     padding: initial;
 }
+
+#bank-name {
+    margin-right: 10%;
+    padding-right: 5%;
+}
+
+.header {
+    margin-top: -17%;
+}
+
+#name {
+    padding-top: 7%;
+    font-size: 1.2em;
+}
+
+.smaller-font {
+    margin-top: -15%;
+}
+
+.available.header {
+    margin-bottom: 12%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

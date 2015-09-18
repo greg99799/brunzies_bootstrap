@@ -9,7 +9,6 @@ a {
 
 
 .wide-order {
-    width: 65%;
     height: 6em;
     border: 1px solid #393939;
     border-radius: .50em;
@@ -37,7 +36,7 @@ a {
 
 #qr, 
 #bank-logo {
-    margin: .7% 6% 0px -7%;
+    margin: 1.2% 6% 0px -8%;
     font-size: 1.5em;
     border: 1px solid #8B8B8B;
     padding: 3%;

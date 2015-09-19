@@ -16,11 +16,7 @@ a {
     box-shadow: 1px 1px #8B8B8B;
 }
 
-.wide-list {
-    list-style-type: none;
-}
-
-.wide-list div {
+.wide-order div {
     display: inline-block;
 }
 
@@ -58,23 +54,27 @@ a {
 #bank-name {
     margin-right: 10%;
     padding-right: 5%;
+    /*margin-top: -3.5%;*/
 }
 
-.header {
-    margin-top: -17%;
+#bitcoin {
+    font-size: 1.2em;
 }
+
+
 
 #name {
-    padding-top: 7%;
+    /*padding-top: 7%;*/
     font-size: 1.2em;
 }
 
 .smaller-font {
-    margin-top: -15%;
+    font-size: 0.85em;
 }
 
-.available.header {
-    margin-bottom: 12%
+.available-header,
+.header {
+    margin-bottom: 4%
 }
 
 

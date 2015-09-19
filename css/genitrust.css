@@ -20,7 +20,7 @@ a {
     list-style-type: none;
 }
 
-.wide-list li {
+.wide-list div {
     display: inline-block;
 }
 
@@ -36,7 +36,7 @@ a {
 
 #qr, 
 #bank-logo {
-    margin: 1.2% 6% 0px -8%;
+    margin: 0.9% 6% 0px -1%;
     font-size: 1.5em;
     border: 1px solid #8B8B8B;
     padding: 3%;

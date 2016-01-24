@@ -556,7 +556,7 @@ MENU PAGE
     /*DESKTOP PSEUDO CLASSES*/
 
     .col-xs-12.contact-info:hover {
-        font-size: 2em;
+        font-size: 1.4em;
         color: #ccc;
         background-color: rgba(0,0,0,.5);
         border-radius: 2%;

@@ -175,6 +175,10 @@ INDEX PAGE
         left: 0; 
     }
 
+    .carousel-caption p {
+        margin-bottom: 0%;
+    }
+
     .carousel .item img.first-slide {
         background: url(../img/index/taps1-mobile-landscape-color.jpg);
         background-size: cover;
@@ -520,6 +524,10 @@ MENU PAGE
         background: url(../img/index/wide-brunzies.jpg) no-repeat center;
         background-size: cover;
     }
+
+    .carousel-caption p {
+    margin-bottom: 2%;
+}
 
     
 

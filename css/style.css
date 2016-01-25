@@ -178,7 +178,7 @@ INDEX PAGE
     
 }
 .carousel .item img.fourth-slide {
-    background: url(../img/index/wide-brunzies.jpg);
+    background: url(../img/index/wide-brunzies2.jpg);
     background-size: cover;
     
 } 
@@ -387,6 +387,7 @@ footer p a {
 
 .carousel-caption p {
     font-family: 'Raleway', Helvetica, sans-serif;
+    margin-bottom: 9%;
 }
 
 #signature {

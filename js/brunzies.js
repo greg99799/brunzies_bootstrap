@@ -11,9 +11,9 @@ angular.module('brunzies', [
 	$urlRouterProvider.otherwise('/');
 
 	$stateProvider
-    .state('index', {
+    .state('home', {
       url: "/",
-      templateUrl: "partials/index.html"
+      templateUrl: "partials/home.html"
     })
     .state('photos', {
       url: "/photos",

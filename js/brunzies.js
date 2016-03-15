@@ -1,6 +1,5 @@
 angular.module('brunzies', [
-	'ui.router',
-  'bootstrapLightbox'
+	'ui.router'
 ])
 
 .run(function($rootScope, $state) {

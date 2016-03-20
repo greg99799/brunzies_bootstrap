@@ -1,12 +1,12 @@
-angular.module('brunzies', [
+var app = angular.module('brunzies', [
 	'ui.router'
 ])
 
-.run(function($rootScope, $state) {
+app.run(function($rootScope, $state) {
 	$rootScope.$state = $state;
 })
 
-.config(function($stateProvider, $urlRouterProvider) {
+app.config(function($stateProvider, $urlRouterProvider) {
 
 	$urlRouterProvider.otherwise('/');
 

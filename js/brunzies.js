@@ -1,5 +1,7 @@
 var app = angular.module('brunzies', [
-	'ui.router'
+	'bootstrapLightbox',
+	'ui.router',
+	'ngRoute'
 ])
 
 app.run(function($rootScope, $state) {
@@ -30,3 +32,18 @@ app.config(function($stateProvider, $urlRouterProvider) {
   ;
 
 })
+
+angular.module('brunzies').controller('GalleryCtrl', function($scope, Lightbox) {
+	$scope.images = [
+		{
+			'url'				: '../img/gallery/bar400x300.jpg',
+			'thumbUrl'	: '../img/gallery/bar400x300.jpg',
+			'caption'		: 'This is a pictire'
+		}
+	];
+	$scope.openLightboxModal = function (index) {
+    Lightbox.openModal($scope.images, index);
+  };
+});
+
+// angular.bootstrap(document.getElementById('app-root'), ['brunzies'], {debugInfoEnabled: true});

@@ -5,13 +5,15 @@
 	      <h1 class="page-header gallery-header headers">Photo Gallery</h1>
 	    </div>
 
-	    	<ul ng-controller="GalleryCtrl">
-  				<li ng-repeat="image in images">
-    				<a ng-click="openLightboxModal($index)">
-      				<img ng-src="{{image.thumbUrl}}" class="img-thumbnail">
+	    <div ng-controller="GalleryCtrl">
+	    	<!-- <ul > -->
+	    		<div ng-repeat="image in images" class="col-lg-3 col-xs-6 gallery-pic">
+    				<a class="thumbnail" ng-click="openLightboxModal($index)">
+      				<img  ng-src="{{image.thumbUrl}}" class="img-responsive">
     				</a>
-  				</li>
-				</ul>
+  				</div>
+				<!-- </ul> -->
+			</div>
 
 	    <!-- <div class="col-lg-3 col-xs-6 gallery-pic">
 	      <a class="thumbnail" rel="lightbox-gallery" href="../img/gallery/bar400x300-overlay.jpg">

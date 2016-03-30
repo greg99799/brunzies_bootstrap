@@ -38,8 +38,44 @@ app.controller('GalleryCtrl', function($scope, Lightbox) {
 		{
 			'url'				: '../img/gallery/bar400x300.jpg',
 			'thumbUrl'	: '../img/gallery/bar400x300.jpg',
-			'caption'		: 'This is a pictire'
+			'caption'		: ''
+		},
+		{
+			'url'				: '../img/gallery/bottles1.jpg',
+			'thumbUrl'	: '../img/gallery/bottles1.jpg',
+			'caption'		: ''
+		},
+		{
+			'url'				: '../img/gallery/kris-ben.jpg',
+			'thumbUrl'	: '../img/gallery/kris-ben.jpg',
+			'caption'		: ''
+		},
+		{
+			'url'				: '../img/gallery/stools.jpg',
+			'thumbUrl'	: '../img/gallery/stools.jpg',
+			'caption'		: ''
+		},
+		{
+			'url'				: '../img/gallery/ackerman.jpg',
+			'thumbUrl'	: '../img/gallery/ackerman.jpg',
+			'caption'		: ''
+		},
+		{
+			'url'				: '../img/gallery/brunzies-people.jpg',
+			'thumbUrl'	: '../img/gallery/brunzies-people.jpg',
+			'caption'		: ''
+		},
+		{
+			'url'				: '../img/gallery/table.jpg',
+			'thumbUrl'	: '../img/gallery/table.jpg',
+			'caption'		: ''
+		},
+		{
+			'url'				: '../img/gallery/beer_81015.jpg',
+			'thumbUrl'	: '../img/gallery/beer_81015.jpg',
+			'caption'		: ''
 		}
+
 	];
 	$scope.openLightboxModal = function (index) {
     Lightbox.openModal($scope.images, index);

@@ -1,7 +1,7 @@
 var app = angular.module('brunzies', [
-	'bootstrapLightbox',
 	'ui.router',
-	'ngRoute'
+	'ngRoute',
+	'bootstrapLightbox',
 ])
 
 app.run(function($rootScope, $state) {
@@ -33,7 +33,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
 
 })
 
-angular.module('brunzies').controller('GalleryCtrl', function($scope, Lightbox) {
+app.controller('GalleryCtrl', function($scope, Lightbox) {
 	$scope.images = [
 		{
 			'url'				: '../img/gallery/bar400x300.jpg',

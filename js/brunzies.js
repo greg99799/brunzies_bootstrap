@@ -71,8 +71,8 @@ app.controller('GalleryCtrl', function($scope, Lightbox) {
 			'caption'		: ''
 		},
 		{
-			'url'				: '../img/gallery/beer_81015.jpg',
-			'thumbUrl'	: '../img/gallery/beer_81015.jpg',
+			'url'				: '../img/gallery/test.jpg',
+			'thumbUrl'	: '../img/gallery/test.jpg',
 			'caption'		: ''
 		}
 
@@ -81,5 +81,45 @@ app.controller('GalleryCtrl', function($scope, Lightbox) {
     Lightbox.openModal($scope.images, index);
   };
 });
+
+
+angular.module('brunzies').config(function (LightboxProvider) {
+	LightboxProvider.calculateImageDimensionLimits = function (dimensions) {
+    return {
+      'maxWidth': dimensions.windowWidth >= 768 ? // default
+        dimensions.windowWidth - 92 :
+        dimensions.windowWidth - 52,
+      'maxHeight': 1200                           // custom
+    };
+  };
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // angular.bootstrap(document.getElementById('app-root'), ['brunzies'], {debugInfoEnabled: true});

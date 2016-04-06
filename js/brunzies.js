@@ -1,5 +1,7 @@
 var app = angular.module('brunzies', [
 	'ui.router',
+	'ui.bootstrap',
+	'ngTouch',
 	'ngRoute',
 	'bootstrapLightbox',
 ])

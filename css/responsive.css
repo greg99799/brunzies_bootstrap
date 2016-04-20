@@ -563,7 +563,7 @@ MENU PAGE
 
     /*DESKTOP PSEUDO CLASSES*/
 
-    .col-xs-12.contact-info:hover {
+/*    .col-xs-12.contact-info:hover {
         font-size: 1.4em;
         color: #ccc;
         background-color: rgba(0,0,0,.5);
@@ -575,7 +575,7 @@ MENU PAGE
         transition: 0.5s;
 
     }
-
+*/
     .contact-info {
         margin-top: 11%;
         margin-left: 4%;

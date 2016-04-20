@@ -326,6 +326,15 @@ footer p a {
     transition: .5s;
 }
 
+#contact-photo {
+    border-radius: 2%;
+    width: 96%;
+}
+
+#bar-description {
+    
+}
+
 .contact-info p a {
     color: #98D4F7;
 }

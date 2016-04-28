@@ -282,6 +282,10 @@ CONTACT PAGE
     .contact-info {
         margin-top: 7%
     }
+
+    #giftcard-balance {
+        font-size: 1.25em;
+    }
 }
 
 

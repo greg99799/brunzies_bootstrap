@@ -1,0 +1,16 @@
+// Menu for Brunzies to be implemented as 'interactive' 
+// using all of Angular's toys.
+
+// Not sure where to save this yet, so I'll just stick 
+// in main folder for now
+
+// Appetizers
+
+appetizers = [
+	{
+		name: "Zack's Homemade Pretzels",
+		description: "Pretzel sticks served w/Yuengling cheese dip",
+		price: "5.99"
+	},
+
+]

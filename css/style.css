@@ -317,6 +317,7 @@ footer p a {
     font-family: 'Raleway'; 
     font-size: 1.35em;
     padding: 4% 0 0 0;
+    background-color: rgba(0,0,0,.5);
     /*margin-bottom: 10%; */
     /*width: 100%;*/
     line-height: 98%;

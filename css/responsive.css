@@ -563,7 +563,7 @@ MENU PAGE
 
     /*DESKTOP PSEUDO CLASSES*/
 
-    .col-xs-12.contact-info:hover {
+/*    .col-xs-12.contact-info:hover {
         font-size: 1.4em;
         color: #ccc;
         background-color: rgba(0,0,0,.5);
@@ -574,7 +574,7 @@ MENU PAGE
         -o-transition: 0.5s;
         transition: 0.5s;
 
-    }
+    }*/
 
     .contact-info {
         margin-top: 11%;
@@ -595,7 +595,7 @@ MENU PAGE
         margin-top: 17%;
     }
 
-    .col-xs-12.drink-specials:hover {
+    /*.col-xs-12.drink-specials:hover {
         color: #000;
         background-color: rgba(256,256,256,0.8);
         box-shadow: 4px 3px 4px #000;
@@ -605,7 +605,7 @@ MENU PAGE
         -ms-transition: 1s;
         -o-transition: 1s;
         transition: 1s;
-    }
+    }*/
 
 
 

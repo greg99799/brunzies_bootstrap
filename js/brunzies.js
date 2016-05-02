@@ -31,6 +31,10 @@ app.config(function($stateProvider, $urlRouterProvider) {
       url: "/contact",
       templateUrl: "partials/contact.html"
     })
+    .state('menu-test', {
+      url: "/menu-test",
+      templateUrl: "partials/menu-test.html"
+    })
   ;
 
 })

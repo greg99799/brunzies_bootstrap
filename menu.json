@@ -8,29 +8,37 @@
 
 var appetizers = [
 	{
-		"name": "Zack's Homemade Pretzels",
-		"description": "Pretzel sticks served w/Yuengling cheese dip",
-		"price": "$5.99"
+		"name": 				"Zack's Homemade Pretzels",
+		"description": 	"Pretzel sticks served w/Yuengling cheese dip",
+		"price": 				"$5.99"
 	},
 	{
 		"name": "Chicken Fritters & Fries",
-		"size": ["3 pc", "5 pc"],
-		"price": ["$6.50", "$10.50"]
+		"price": 	[
+								{"3 pc": "$6.99"},
+								{"5 pc": "$10.50"}
+							]
 	},
 	{
-		"name": "Beer Battered Fries",
-		"description": "Beer battered and fried golden brown",
-		"price": "$3.99"
+		"name": 				"Beer Battered Fries",
+		"description": 	"Beer battered and fried golden brown",
+		"price": 				"$3.99"
 	},
 	{
-		"name": "Italian Garlic Bread",
-		"description": "Covered w/cheese and tomatoes and served w/a side of marinara",
-		"price": "$5.99"
+		"name": 				"Italian Garlic Bread",
+		"description": 	"Covered w/cheese and tomatoes and served w/a side of marinara",
+		"price": 				"$5.99"
 	},
 	{
-		"name": "Fried Provolone",
-		"description": "Crisp, golden brown, served with a side of marinara",
-		"price": "$5.99"
+		"name": 				"Fried Provolone",
+		"description": 	"Crisp, golden brown, served with a side of marinara",
+		"price": 				"$5.99"
 	},
+	{
+		"name": 				"Gyro Sliders",
+		"description": 	"3 beef and lamb patties topped with cucumber, tomato, and tzatziki sauce on toasted slider rolls",
+										"price": "$8.99"
+	},
+
 
 ]

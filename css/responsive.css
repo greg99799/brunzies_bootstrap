@@ -582,6 +582,11 @@ MENU PAGE
         padding: 1% 0 0 1%;
     }
 
+    #contact-photo {
+        border-radius: 2%;
+        width: 60%;
+    }   
+
     .navbar-inverse .navbar-nav>li>a:hover {
         margin-top: 2%;
         -webkit-transition: 0.5s;

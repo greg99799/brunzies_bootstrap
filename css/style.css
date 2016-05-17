@@ -328,11 +328,11 @@ footer p a {
 
 #contact-photo {
     border-radius: 2%;
-    width: 96%;
+    width: 60%;
 }
 
 #bar-description {
-    
+    line-height: 1.2em;
 }
 
 .contact-info p a {

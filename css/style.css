@@ -331,6 +331,11 @@ footer p a {
     width: 96%;
 }
 
+#photo-caption {
+    margin-top: 1%;
+    font-size: .75em;    
+}
+
 #bar-description {
     line-height: 1.2em;
 }

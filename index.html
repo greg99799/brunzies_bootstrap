@@ -32,6 +32,7 @@
     <link href="css/font-awesome.min.css" rel="stylesheet"> 
     <link href="css/carousel.css" rel="stylesheet">    
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://npmcdn.com/flickity@1.2/dist/flickity.min.css">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
   </head>
@@ -72,7 +73,7 @@
     
     <!-- <div class="all-but-topnav"> -->
       <!-- Carousel  -->
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div id="myCarousel" class="carousel slide js-flickity" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -83,7 +84,7 @@
 
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img class="first-slide">
+            <img class="first-slide carousel-cell">
             
             <div class="container">
               <div class="carousel-caption brunzies-caption">
@@ -153,6 +154,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.mobile.custom.min.js"></script>
     <script src="js/swipe-event.js"></script>
+    <script src="https://npmcdn.com/flickity@1.2/dist/flickity.pkgd.min.js"></script>
   </body>
 
 

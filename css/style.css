@@ -162,7 +162,7 @@ INDEX PAGE
 }
 
 .carousel .item img.first-slide {
-    background: url(../img/index/taps1-portrait-color.jpg);
+    /*background: url(../img/index/taps1-portrait-color.jpg);*/
     background-size: cover;
     
 }

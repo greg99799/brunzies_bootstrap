@@ -1,4 +1,7 @@
 $(".carousel-inner").flickity({
 	// "freeScroll": true,
-	"wrapAround": true
+	"wrapAround": true,
+	"setGallerySize": false,
+	"prevNextButtons": false
+
 });

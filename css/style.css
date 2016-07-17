@@ -150,6 +150,7 @@ INDEX PAGE
 .index-only {
     margin-bottom: -160px;
 }
+
 .carousel .item {
     background-color: transparent;
     height: 100%;
@@ -168,17 +169,17 @@ INDEX PAGE
 }
 
 .carousel .item img.second-slide {
-    background: url(../img/index/sliders-mobile-color.jpg);
+    /*background: url(../img/index/sliders-mobile-color.jpg);*/
     background-size: cover;
     
 }
 .carousel .item img.third-slide {
-    background: url(../img/index/taps2-portrait-color.jpg);
+    /*background: url(../img/index/taps2-portrait-color.jpg);*/
     background-size: cover;
     
 }
 .carousel .item img.fourth-slide {
-    background: url(../img/index/wide-brunzies2.jpg);
+    /*background: url(../img/index/wide-brunzies2.jpg);*/
     background-size: cover;
     
 } 

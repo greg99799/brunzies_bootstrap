@@ -1,5 +1,5 @@
 $(".carousel-inner").flickity({
-	// "freeScroll": true,
+	"freeScroll": true,
 	"wrapAround": true,
 	"setGallerySize": false,
 	"prevNextButtons": false

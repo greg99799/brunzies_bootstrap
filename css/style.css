@@ -355,6 +355,11 @@ footer p a {
     margin-top: -1.3%;
 }
 
+span#hours {
+    font-size: 1.25em;
+    text-decoration: underline;
+}
+
 #giftcard-balance {
     font-size: 1.4em;
     color: #CAA8A8;
